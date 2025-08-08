@@ -1,0 +1,3 @@
+GPIO_REG_TCR:
+.long 0xef600704
+

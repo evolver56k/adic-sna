@@ -1,0 +1,10 @@
+l_connUnitLinkUnitTypeY:
+.long 0x10201
+.long 0x13e750
+.long 0xfa6b0
+.long 0x13e760
+.long 0xfa83c
+	...
+.long 0xff
+.long 0xff
+

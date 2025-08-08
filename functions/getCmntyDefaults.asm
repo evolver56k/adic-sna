@@ -1,0 +1,9 @@
+getCmntyDefaults:
+.long 0x1f6be0
+.long 0x1
+.long 0x1f6bd8
+.long 0x1
+.long 0x1f6bd0
+.long 0x2
+	...
+

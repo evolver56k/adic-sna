@@ -1,0 +1,10 @@
+l_hostITLData:
+.long 0x10403
+.long 0xf6a80
+.long 0xf68e0
+.long 0xf6d58
+.long 0xf6998
+	...
+.long 0xff
+.long 0xff
+

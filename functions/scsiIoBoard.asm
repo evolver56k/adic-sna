@@ -1,0 +1,8 @@
+scsiIoBoard:
+.long 0x0
+.long 0x202114
+.long 0x20210c
+.long 0x202108
+.long 0x202104
+.long 0x2020fc
+

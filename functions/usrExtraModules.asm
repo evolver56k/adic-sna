@@ -1,0 +1,7 @@
+usrExtraModules:
+.long 0x114590
+.long 0x1406a8
+.long 0x11cbd4
+.long 0x1516f4
+.long 0x11a488
+

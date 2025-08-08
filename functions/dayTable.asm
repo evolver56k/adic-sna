@@ -1,0 +1,9 @@
+dayTable:
+.long 0x1d4710
+.long 0x1d4708
+.long 0x1d4700
+.long 0x1d46f4
+.long 0x1d46e8
+.long 0x1d46e0
+.long 0x1d46d4
+

@@ -1,0 +1,4 @@
+sysTlbInvalAll:
+tlbia
+lr
+

@@ -1,0 +1,10 @@
+l_snmpEnableAuthenTraps:
+.long 0x10203
+.long 0xe5728
+.long 0xe53f0
+.long 0xe5718
+.long 0x149584
+	...
+.long 0xff
+.long 0xff
+

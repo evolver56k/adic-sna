@@ -1,0 +1,10 @@
+l_ifAdminStatus:
+.long 0x10203
+.long 0xf29c0
+.long 0xf2818
+.long 0xf2af4
+.long 0xf28ec
+	...
+.long 0xff
+.long 0xff
+

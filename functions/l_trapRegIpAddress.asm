@@ -1,0 +1,10 @@
+l_trapRegIpAddress:
+.long 0x14001
+.long 0x13e750
+.long 0xfafbc
+.long 0x13e760
+.long 0xfb148
+	...
+.long 0xff
+.long 0xff
+

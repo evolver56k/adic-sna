@@ -1,0 +1,10 @@
+TupperEnvChDb:
+.long 0x2c49d8
+.long 0x2c4710
+.long 0x2c475c
+.long 0x2c4a24
+.long 0x2c4a70
+.long 0x2c4abc
+.long 0x2c48d8
+.long 0x2c4b24
+

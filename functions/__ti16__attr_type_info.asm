@@ -1,0 +1,3 @@
+__ti16__attr_type_info:
+	...
+

@@ -1,0 +1,3 @@
+Lleft:
+.long 0x0
+

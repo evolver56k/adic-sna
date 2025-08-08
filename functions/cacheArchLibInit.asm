@@ -1,0 +1,42 @@
+cacheArchLibInit:
+lis     r11,45
+lis     r9,25
+i    r9,r9,-15064
+stw     r9,-21956(r11)
+i    r11,r11,-21956
+lis     r9,25
+i    r9,r9,-14972
+stw     r9,4(r11)
+li      r0,0
+stw     r0,8(r11)
+stw     r0,12(r11)
+stw     r0,24(r11)
+lis     r9,25
+i    r9,r9,-14552
+stw     r9,36(r11)
+lis     r9,25
+i    r9,r9,-14324
+stw     r9,40(r11)
+stw     r0,44(r11)
+stw     r0,48(r11)
+lis     r9,25
+i    r9,r9,-13808
+stw     r9,28(r11)
+lis     r9,25
+i    r9,r9,-13876
+stw     r9,16(r11)
+lis     r9,25
+i    r9,r9,-13940
+stw     r9,20(r11)
+lis     r9,25
+i    r9,r9,-13692
+stw     r9,32(r11)
+lis     r9,45
+stw     r4,-20264(r9)
+lis     r9,45
+stw     r0,-20260(r9)
+lis     r9,45
+stw     r0,-20256(r9)
+li      r3,0
+lr
+

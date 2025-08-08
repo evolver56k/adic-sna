@@ -1,0 +1,3 @@
+Znulls:
+.long 0x0
+

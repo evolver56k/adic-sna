@@ -1,0 +1,3 @@
+zconv:
+.long 0x0
+

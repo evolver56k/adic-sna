@@ -1,0 +1,3 @@
+netShowInit:
+lr
+

@@ -1,0 +1,5 @@
+a_iso:
+.long 0x3
+.long 0x2bb6f8
+	...
+

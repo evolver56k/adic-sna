@@ -1,0 +1,3 @@
+paEventLogEntry_global:
+	...
+

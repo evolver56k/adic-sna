@@ -1,0 +1,10 @@
+l_ipAdEntAddr:
+.long 0x14001
+.long 0x13e750
+.long 0xf4c60
+.long 0x13e760
+.long 0xf4df4
+	...
+.long 0xff
+.long 0xff
+

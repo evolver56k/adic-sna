@@ -1,0 +1,8 @@
+pciIntrVectors:
+.long 0x7001a
+.long 0x8001b
+.long 0x100001c
+.long 0x100011d
+.long 0x101001e
+.long 0x101011f
+

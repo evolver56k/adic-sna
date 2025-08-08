@@ -1,0 +1,5 @@
+a_org:
+.long 0x6
+.long 0x2bb6e0
+	...
+

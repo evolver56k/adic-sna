@@ -1,0 +1,3 @@
+errors:
+.long 0x0
+

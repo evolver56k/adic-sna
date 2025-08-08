@@ -1,0 +1,10 @@
+l_connUnitContact:
+.long 0x10403
+.long 0xf8418
+.long 0xf8130
+.long 0xf86a0
+.long 0xf8234
+	...
+.long 0xff
+.long 0xff
+

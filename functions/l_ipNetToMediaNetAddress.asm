@@ -1,0 +1,10 @@
+l_ipNetToMediaNetAddress:
+.long 0x14003
+.long 0xf50b4
+.long 0xf53c8
+.long 0xf52b0
+.long 0xf5568
+	...
+.long 0xff
+.long 0xff
+

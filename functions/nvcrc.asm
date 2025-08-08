@@ -1,0 +1,3 @@
+nvcrc:
+.long 0x0
+

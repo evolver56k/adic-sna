@@ -1,0 +1,10 @@
+l_srsDevMemberCount:
+.long 0x10201
+.long 0x13e750
+.long 0xefc44
+.long 0x13e760
+.long 0xefde8
+	...
+.long 0xff
+.long 0xff
+

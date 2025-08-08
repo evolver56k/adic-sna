@@ -1,0 +1,10 @@
+l_ifLinkUpDownTrapEnable:
+.long 0x10203
+.long 0xf29c0
+.long 0xf2f0c
+.long 0xf2af4
+.long 0xf2fe0
+	...
+.long 0xff
+.long 0xff
+

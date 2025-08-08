@@ -1,0 +1,10 @@
+l_trapRegFilter:
+.long 0x10203
+.long 0xfb3b4
+.long 0xfafbc
+.long 0xfb584
+.long 0xfb148
+	...
+.long 0xff
+.long 0xff
+

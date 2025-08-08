@@ -1,0 +1,3 @@
+Ascii:
+.long 0x0
+

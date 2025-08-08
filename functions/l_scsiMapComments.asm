@@ -1,0 +1,10 @@
+l_scsiMapComments:
+.long 0x10403
+.long 0xee8d8
+.long 0xee410
+.long 0xee9d4
+.long 0xee5d4
+	...
+.long 0xff
+.long 0xff
+

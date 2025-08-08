@@ -1,0 +1,3 @@
+__ti10bad_typeid:
+	...
+

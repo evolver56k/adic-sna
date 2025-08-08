@@ -1,0 +1,3 @@
+def_fp:
+.long 0x0
+

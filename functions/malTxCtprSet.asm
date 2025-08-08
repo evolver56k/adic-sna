@@ -1,0 +1,6 @@
+malTxCtprSet:
+.long 0x10340
+.long 0x10350
+.long 0x10360
+.long 0x10370
+

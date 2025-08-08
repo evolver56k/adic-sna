@@ -1,0 +1,7 @@
+a_paHost:
+.long 0x1
+.long 0x2ba698
+.long 0x2
+.long 0x2ba918
+	...
+

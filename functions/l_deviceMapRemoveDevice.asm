@@ -1,0 +1,10 @@
+l_deviceMapRemoveDevice:
+.long 0x10202
+.long 0xef88c
+.long 0x13e7c8
+.long 0xef9c0
+.long 0x13e770
+	...
+.long 0xff
+.long 0xff
+

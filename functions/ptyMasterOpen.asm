@@ -1,0 +1,3 @@
+ptyMasterOpen:
+lr
+

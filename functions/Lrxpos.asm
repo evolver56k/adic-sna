@@ -1,0 +1,3 @@
+Lrxpos:
+.long 0x0
+

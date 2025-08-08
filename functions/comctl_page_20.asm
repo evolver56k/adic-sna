@@ -1,0 +1,134 @@
+comctl_page_20:
+stwu    r1,-40(r1)
+mflr    r0
+stmw    r29,28(r1)
+stw     r0,44(r1)
+mr      r30,r4
+mr      r29,r5
+mr      r31,r3
+li      r4,24
+l      190ba4 <bzero>
+mpwi   cr1,r30,1
+q-    cr1,6185c <comctl_page_20+0x1e8>
+gt-    cr1,616b0 <comctl_page_20+0x3c>
+mpwi   cr1,r30,0
+q-    cr1,616b8 <comctl_page_20+0x44>
+<comctl_page_20+0x1e8>
+mpwi   cr1,r30,3
+gt-    cr1,6185c <comctl_page_20+0x1e8>
+ndi.   r0,r29,16
+q-    61768 <comctl_page_20+0xf4>
+lrlwi  r3,r29,28
+i    r4,r1,8
+i    r5,r1,12
+i    r6,r1,16
+i    r7,r1,20
+l      38618 <fcPortNamesGet>
+lbz     r0,8(r1)
+stb     r0,2(r31)
+lbz     r0,9(r1)
+stb     r0,3(r31)
+lwz     r0,8(r1)
+rlwinm  r0,r0,24,8,31
+stb     r0,4(r31)
+lbz     r0,11(r1)
+stb     r0,5(r31)
+lbz     r0,12(r1)
+stb     r0,6(r31)
+lbz     r0,13(r1)
+stb     r0,7(r31)
+lwz     r0,12(r1)
+rlwinm  r0,r0,24,8,31
+stb     r0,8(r31)
+lbz     r0,15(r1)
+stb     r0,9(r31)
+lbz     r0,16(r1)
+stb     r0,16(r31)
+lbz     r0,17(r1)
+stb     r0,17(r31)
+lwz     r0,16(r1)
+rlwinm  r0,r0,24,8,31
+stb     r0,18(r31)
+lbz     r0,19(r1)
+stb     r0,19(r31)
+lbz     r0,20(r1)
+stb     r0,20(r31)
+lbz     r0,21(r1)
+stb     r0,21(r31)
+lwz     r0,20(r1)
+rlwinm  r0,r0,24,8,31
+stb     r0,22(r31)
+lbz     r0,23(r1)
+<comctl_page_20+0x1b0>
+lis     r11,44
+lwz     r0,17416(r11)
+rlwinm  r0,r0,8,24,31
+stb     r0,2(r31)
+lwz     r0,17416(r11)
+rlwinm  r0,r0,16,16,31
+stb     r0,3(r31)
+lwz     r0,17416(r11)
+i    r8,r11,17416
+rlwinm  r0,r0,24,8,31
+stb     r0,4(r31)
+lbz     r0,3(r8)
+lis     r9,44
+stb     r0,5(r31)
+lwz     r0,17420(r9)
+rlwinm  r0,r0,8,24,31
+stb     r0,6(r31)
+lwz     r0,17420(r9)
+rlwinm  r0,r0,16,16,31
+stb     r0,7(r31)
+lwz     r0,17420(r9)
+i    r10,r9,17420
+rlwinm  r0,r0,24,8,31
+stb     r0,8(r31)
+lbz     r0,3(r10)
+stb     r0,9(r31)
+lwz     r0,17416(r11)
+rlwinm  r0,r0,8,24,31
+stb     r0,16(r31)
+lwz     r0,17416(r11)
+rlwinm  r0,r0,16,16,31
+stb     r0,17(r31)
+lwz     r0,17416(r11)
+rlwinm  r0,r0,24,8,31
+stb     r0,18(r31)
+lbz     r0,3(r8)
+stb     r0,19(r31)
+lwz     r0,17420(r9)
+rlwinm  r0,r0,8,24,31
+stb     r0,20(r31)
+lwz     r0,17420(r9)
+rlwinm  r0,r0,16,16,31
+stb     r0,21(r31)
+lwz     r0,17420(r9)
+rlwinm  r0,r0,24,8,31
+stb     r0,22(r31)
+lbz     r0,3(r10)
+stb     r0,23(r31)
+lis     r9,39
+lbz     r0,17335(r9)
+lis     r9,39
+stb     r0,10(r31)
+lbz     r0,17339(r9)
+lis     r9,43
+stb     r0,11(r31)
+li      r0,3
+stb     r0,12(r31)
+lbz     r0,5083(r9)
+stb     r0,13(r31)
+li      r0,1
+stb     r0,14(r31)
+li      r0,32
+stb     r0,0(r31)
+li      r0,22
+stb     r0,1(r31)
+li      r3,24
+lwz     r0,44(r1)
+mtlr    r0
+lmw     r29,28(r1)
+i    r1,r1,40
+lr
+

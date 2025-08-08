@@ -1,0 +1,6 @@
+generic_changers:
+.long 0x0
+.long 0x1df288
+.long 0x1
+.long 0x0
+

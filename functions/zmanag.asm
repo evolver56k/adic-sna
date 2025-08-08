@@ -1,0 +1,3 @@
+zmanag:
+.long 0x0
+

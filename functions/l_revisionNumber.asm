@@ -1,0 +1,10 @@
+l_revisionNumber:
+.long 0x10401
+.long 0x13e750
+.long 0xfc10c
+.long 0x13e760
+.long 0xfc258
+	...
+.long 0xff
+.long 0xff
+

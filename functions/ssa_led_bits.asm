@@ -1,0 +1,7 @@
+ssa_led_bits:
+.long 0x1
+.long 0x1
+.long 0x4
+.long 0x4
+	...
+

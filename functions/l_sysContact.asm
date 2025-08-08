@@ -1,0 +1,10 @@
+l_sysContact:
+.long 0x10403
+.long 0xe5aec
+.long 0xe579c
+.long 0xe59a8
+.long 0x149584
+	...
+.long 0xff
+.long 0xff
+

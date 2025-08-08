@@ -1,0 +1,7 @@
+a_hrPrinterEntry:
+.long 0x1
+.long 0x2b5fb4
+.long 0x2
+.long 0x2b5fd8
+	...
+

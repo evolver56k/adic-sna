@@ -1,0 +1,10 @@
+l_srsMemAssignedLun:
+.long 0x10203
+.long 0xf08c8
+.long 0xf03e0
+.long 0xf0aa4
+.long 0xf0568
+	...
+.long 0xff
+.long 0xff
+

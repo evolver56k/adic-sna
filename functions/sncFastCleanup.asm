@@ -1,0 +1,236 @@
+sncFastCleanup:
+stwu    r1,-24(r1)
+mflr    r0
+stmw    r29,12(r1)
+stw     r0,28(r1)
+lis     r9,43
+lwz     r0,9168(r9)
+mpwi   cr1,r0,0
+mr      r30,r3
+q-    cr1,95358 <sncFastCleanup+0x394>
+lbz     r0,2765(r30)
+lbz     r11,2766(r30)
+lbz     r9,2767(r30)
+rlwinm  r0,r0,24,0,7
+rlwinm  r11,r11,16,0,15
+or      r11,r11,r0
+rlwinm  r9,r9,8,0,23
+lbz     r0,2768(r30)
+or      r9,r9,r11
+or      r0,r0,r9
+mpwi   cr1,r0,-1
+q-    cr1,95044 <sncFastCleanup+0x80>
+lbz     r9,2765(r30)
+lbz     r0,2766(r30)
+lbz     r3,2767(r30)
+rlwinm  r9,r9,24,0,7
+rlwinm  r0,r0,16,0,15
+or      r0,r0,r9
+rlwinm  r3,r3,8,0,23
+lbz     r9,2768(r30)
+or      r3,r3,r0
+or      r3,r9,r3
+l      11e2ec <taskDelete>
+lbz     r11,2793(r30)
+lbz     r9,2794(r30)
+lbz     r0,2795(r30)
+rlwinm  r11,r11,24,0,7
+rlwinm  r9,r9,16,0,15
+or      r9,r9,r11
+rlwinm  r0,r0,8,0,23
+lbz     r11,2796(r30)
+or      r0,r0,r9
+or.     r9,r11,r0
+li      r29,0
+le-    951f8 <sncFastCleanup+0x234>
+mr      r31,r30
+lbz     r0,2813(r31)
+lbz     r11,2814(r31)
+lbz     r9,2815(r31)
+rlwinm  r0,r0,24,0,7
+rlwinm  r11,r11,16,0,15
+or      r11,r11,r0
+rlwinm  r9,r9,8,0,23
+lbz     r0,2816(r31)
+or      r9,r9,r11
+or      r0,r0,r9
+mpwi   cr1,r0,-1
+q-    cr1,950d4 <sncFastCleanup+0x110>
+lbz     r9,2813(r31)
+lbz     r0,2814(r31)
+lbz     r3,2815(r31)
+rlwinm  r9,r9,24,0,7
+rlwinm  r0,r0,16,0,15
+or      r0,r0,r9
+rlwinm  r3,r3,8,0,23
+lbz     r9,2816(r31)
+or      r3,r3,r0
+or      r3,r9,r3
+l      11e2ec <taskDelete>
+lbz     r11,2845(r31)
+lbz     r9,2846(r31)
+lbz     r0,2847(r31)
+rlwinm  r11,r11,24,0,7
+rlwinm  r9,r9,16,0,15
+or      r9,r9,r11
+rlwinm  r0,r0,8,0,23
+lbz     r11,2848(r31)
+or      r0,r0,r9
+or.     r9,r11,r0
+q-    951c0 <sncFastCleanup+0x1fc>
+lbz     r9,2845(r31)
+lbz     r11,2846(r31)
+lbz     r0,2847(r31)
+rlwinm  r9,r9,24,0,7
+rlwinm  r11,r11,16,0,15
+or      r11,r11,r9
+rlwinm  r0,r0,8,0,23
+lbz     r9,2848(r31)
+or      r0,r0,r11
+or      r9,r9,r0
+lwz     r0,152(r9)
+mpwi   cr1,r0,0
+q-    cr1,95164 <sncFastCleanup+0x1a0>
+lbz     r9,2845(r31)
+lbz     r11,2846(r31)
+lbz     r0,2847(r31)
+rlwinm  r9,r9,24,0,7
+rlwinm  r11,r11,16,0,15
+or      r11,r11,r9
+rlwinm  r0,r0,8,0,23
+lbz     r9,2848(r31)
+or      r0,r0,r11
+or      r9,r9,r0
+lwz     r3,152(r9)
+l      132b1c <semDelete>
+lbz     r9,2845(r31)
+lbz     r11,2846(r31)
+lbz     r0,2847(r31)
+rlwinm  r9,r9,24,0,7
+rlwinm  r11,r11,16,0,15
+or      r11,r11,r9
+rlwinm  r0,r0,8,0,23
+lbz     r9,2848(r31)
+or      r0,r0,r11
+or      r9,r9,r0
+li      r0,0
+stw     r0,16(r9)
+lbz     r9,2845(r31)
+lbz     r0,2846(r31)
+lbz     r3,2847(r31)
+rlwinm  r9,r9,24,0,7
+rlwinm  r0,r0,16,0,15
+or      r0,r0,r9
+rlwinm  r3,r3,8,0,23
+lbz     r9,2848(r31)
+or      r3,r3,r0
+or      r3,r9,r3
+l      9a218 <vcmFreeSno>
+i    r29,r29,1
+lbz     r0,2793(r30)
+lbz     r11,2794(r30)
+lbz     r9,2795(r30)
+rlwinm  r0,r0,24,0,7
+rlwinm  r11,r11,16,0,15
+or      r11,r11,r0
+rlwinm  r9,r9,8,0,23
+lbz     r0,2796(r30)
+or      r9,r9,r11
+or      r0,r0,r9
+mpw    cr1,r29,r0
+i    r31,r31,4
+lt+    cr1,95078 <sncFastCleanup+0xb4>
+lbz     r11,2753(r30)
+lbz     r9,2754(r30)
+lbz     r0,2755(r30)
+rlwinm  r11,r11,24,0,7
+rlwinm  r9,r9,16,0,15
+or      r9,r9,r11
+rlwinm  r0,r0,8,0,23
+lbz     r11,2756(r30)
+or      r0,r0,r9
+or.     r9,r11,r0
+q-    95250 <sncFastCleanup+0x28c>
+lbz     r9,2753(r30)
+lbz     r0,2754(r30)
+lbz     r3,2755(r30)
+rlwinm  r9,r9,24,0,7
+rlwinm  r0,r0,16,0,15
+or      r0,r0,r9
+rlwinm  r3,r3,8,0,23
+lbz     r9,2756(r30)
+or      r3,r3,r0
+or      r3,r9,r3
+l      146ca8 <msgQDelete>
+lbz     r11,2749(r30)
+lbz     r9,2750(r30)
+lbz     r0,2751(r30)
+rlwinm  r11,r11,24,0,7
+rlwinm  r9,r9,16,0,15
+or      r9,r9,r11
+rlwinm  r0,r0,8,0,23
+lbz     r11,2752(r30)
+or      r0,r0,r9
+or.     r9,r11,r0
+q-    952a8 <sncFastCleanup+0x2e4>
+lbz     r9,2749(r30)
+lbz     r0,2750(r30)
+lbz     r3,2751(r30)
+rlwinm  r9,r9,24,0,7
+rlwinm  r0,r0,16,0,15
+or      r0,r0,r9
+rlwinm  r3,r3,8,0,23
+lbz     r9,2752(r30)
+or      r3,r3,r0
+or      r3,r9,r3
+l      146ca8 <msgQDelete>
+lbz     r11,2757(r30)
+lbz     r9,2758(r30)
+lbz     r0,2759(r30)
+rlwinm  r11,r11,24,0,7
+rlwinm  r9,r9,16,0,15
+or      r9,r9,r11
+rlwinm  r0,r0,8,0,23
+lbz     r11,2760(r30)
+or      r0,r0,r9
+or.     r9,r11,r0
+q-    95300 <sncFastCleanup+0x33c>
+lbz     r9,2757(r30)
+lbz     r0,2758(r30)
+lbz     r3,2759(r30)
+rlwinm  r9,r9,24,0,7
+rlwinm  r0,r0,16,0,15
+or      r0,r0,r9
+rlwinm  r3,r3,8,0,23
+lbz     r9,2760(r30)
+or      r3,r3,r0
+or      r3,r9,r3
+l      146ca8 <msgQDelete>
+lbz     r11,2761(r30)
+lbz     r9,2762(r30)
+lbz     r0,2763(r30)
+rlwinm  r11,r11,24,0,7
+rlwinm  r9,r9,16,0,15
+or      r9,r9,r11
+rlwinm  r0,r0,8,0,23
+lbz     r11,2764(r30)
+or      r0,r0,r9
+or.     r9,r11,r0
+q-    95358 <sncFastCleanup+0x394>
+lbz     r9,2761(r30)
+lbz     r0,2762(r30)
+lbz     r3,2763(r30)
+rlwinm  r9,r9,24,0,7
+rlwinm  r0,r0,16,0,15
+or      r0,r0,r9
+rlwinm  r3,r3,8,0,23
+lbz     r9,2764(r30)
+or      r3,r3,r0
+or      r3,r9,r3
+l      132b1c <semDelete>
+lwz     r0,28(r1)
+mtlr    r0
+lmw     r29,12(r1)
+i    r1,r1,24
+lr
+

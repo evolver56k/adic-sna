@@ -1,0 +1,3 @@
+__ti22_IO_istream_withassign:
+	...
+

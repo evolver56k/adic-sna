@@ -1,0 +1,56 @@
+notification_test:
+stwu    r1,-16(r1)
+mflr    r0
+stmw    r30,8(r1)
+stw     r0,20(r1)
+mpwi   cr1,r4,1
+mr      r9,r5
+mr      r30,r6
+mr      r31,r7
+ne-    cr1,e4340 <notification_test+0x30>
+lwz     r0,0(r9)
+mpwi   cr1,r0,0
+q-    cr1,e4354 <notification_test+0x44>
+mr      r3,r30
+mr      r4,r31
+li      r5,2
+l      12a154 <testproc_error>
+<notification_test+0xc4>
+mr      r3,r30
+mr      r4,r31
+li      r5,1
+mr      r6,r9
+l      135560 <snmpdGroupByGetprocAndInstance>
+mr.     r31,r31
+q-    e43d4 <notification_test+0xc4>
+lwz     r0,24(r31)
+mpwi   cr1,r0,2
+ne-    cr1,e43b4 <notification_test+0xa4>
+lwz     r0,40(r31)
+mpwi   cr1,r0,1
+gt-    cr1,e4390 <notification_test+0x80>
+mpwi   cr1,r0,0
+ge-    cr1,e43a4 <notification_test+0x94>
+mr      r3,r30
+mr      r4,r31
+li      r5,10
+l      12a154 <testproc_error>
+<notification_test+0xb8>
+mr      r3,r30
+mr      r4,r31
+l      12a144 <testproc_good>
+<notification_test+0xb8>
+mr      r3,r30
+mr      r4,r31
+li      r5,5
+l      12a154 <testproc_error>
+<notification_test+0xc4>
+lwz     r31,0(r31)
+mpwi   cr1,r31,0
+ne+    cr1,e4370 <notification_test+0x60>
+lwz     r0,20(r1)
+mtlr    r0
+lmw     r30,8(r1)
+i    r1,r1,16
+lr
+

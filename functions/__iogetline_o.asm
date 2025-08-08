@@ -1,0 +1,3 @@
+__iogetline_o:
+	...
+

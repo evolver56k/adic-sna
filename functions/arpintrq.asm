@@ -1,0 +1,5 @@
+arpintrq:
+	...
+.long 0x32
+.long 0x0
+

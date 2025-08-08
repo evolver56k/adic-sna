@@ -1,0 +1,3 @@
+__ti16__ptmd_type_info:
+	...
+

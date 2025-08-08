@@ -1,0 +1,3 @@
+ifnet:
+.long 0x0
+

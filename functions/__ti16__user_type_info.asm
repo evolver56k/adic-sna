@@ -1,0 +1,3 @@
+__ti16__user_type_info:
+	...
+

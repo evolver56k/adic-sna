@@ -1,0 +1,10 @@
+l_hostIPAddr:
+.long 0x14001
+.long 0x13e750
+.long 0xf68e0
+.long 0x13e760
+.long 0xf6998
+	...
+.long 0xff
+.long 0xff
+

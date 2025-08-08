@@ -1,0 +1,18 @@
+ftpdCommandList:
+.long 0x20cfb0
+
+002cab54 <monthNames.22>:
+.long 0x20d3ac
+.long 0x20d3a8
+.long 0x20d3a4
+.long 0x20d3a0
+.long 0x20d39c
+.long 0x20d398
+.long 0x20d394
+.long 0x20d390
+.long 0x20d38c
+.long 0x20d388
+.long 0x20d384
+.long 0x20d380
+.long 0x20d37c
+

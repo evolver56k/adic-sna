@@ -1,0 +1,9 @@
+logFd:
+	...
+
+00312e9c <timeBuffer.2>:
+	...
+
+00312ec0 <divStruct.2>:
+	...
+

@@ -1,0 +1,10 @@
+l_hrFSType:
+.long 0x10601
+.long 0x13e750
+.long 0x13e7c8
+.long 0x13e760
+.long 0x13e770
+	...
+.long 0xff
+.long 0xff
+

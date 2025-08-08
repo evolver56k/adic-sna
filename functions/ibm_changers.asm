@@ -1,0 +1,7 @@
+ibm_changers:
+.long 0x1df218
+.long 0x1df210
+.long 0x7
+.long 0x54f6c
+	...
+

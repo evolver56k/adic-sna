@@ -1,0 +1,6 @@
+cbioFuncs:
+.long 0x1a58ec
+.long 0x1a5c80
+.long 0x1a5ea0
+.long 0x1a609c
+

@@ -1,0 +1,3 @@
+bytcnt:
+.long 0x0
+

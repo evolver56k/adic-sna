@@ -1,0 +1,3 @@
+ppc405ICACHE_LINE_NUM:
+.long 0x100
+

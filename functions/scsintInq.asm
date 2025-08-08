@@ -1,0 +1,51 @@
+scsintInq:
+stwu    r1,-24(r1)
+mflr    r0
+stw     r0,28(r1)
+li      r10,0
+stb     r10,6(r3)
+stb     r10,16(r3)
+lis     r0,16384
+stw     r0,20(r3)
+li      r0,6
+stb     r0,17(r3)
+i    r9,r1,8
+rlwinm  r0,r9,0,0,3
+srawi   r11,r0,31
+xor     r0,r11,r0
+subf    r0,r0,r11
+srawi   r0,r0,31
+oris    r11,r9,2048
+nd     r9,r9,r0
+ndc    r0,r11,r0
+or      r9,r9,r0
+stw     r9,24(r3)
+li      r0,18
+stb     r0,8(r1)
+stb     r10,9(r1)
+mpwi   cr1,r5,255
+stb     r10,10(r1)
+stb     r10,11(r1)
+stb     r10,13(r1)
+mfcr    r9
+rlwinm  r9,r9,5,31,31
+neg     r9,r9
+not     r0,r9
+rlwinm  r0,r0,0,24,30
+nd     r5,r5,r9
+or      r5,r5,r0
+stb     r5,12(r1)
+li      r0,20
+stw     r0,44(r3)
+stw     r4,28(r3)
+stw     r5,32(r3)
+l      a7318 <scsintCcb>
+not     r0,r3
+srawi   r0,r0,31
+nd     r3,r0,r3
+orc     r3,r3,r0
+lwz     r0,28(r1)
+mtlr    r0
+i    r1,r1,24
+lr
+

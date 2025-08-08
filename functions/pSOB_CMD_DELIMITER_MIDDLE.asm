@@ -1,0 +1,3 @@
+pSOB_CMD_DELIMITER_MIDDLE:
+.long 0x31427e
+

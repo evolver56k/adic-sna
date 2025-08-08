@@ -1,0 +1,8 @@
+nvmemNormPrim:
+.long 0x21a78
+.long 0x21a88
+.long 0x21a98
+.long 0x21aac
+.long 0x21ac0
+.long 0x21af0
+

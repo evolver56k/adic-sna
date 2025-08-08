@@ -1,0 +1,3 @@
+Test:
+.long 0x0
+

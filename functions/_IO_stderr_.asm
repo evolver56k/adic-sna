@@ -1,0 +1,9 @@
+_IO_stderr_:
+.long 0xfbad2086
+	...
+.long 0x2cbab0
+.long 0x2
+	...
+.long 0x31441c
+.long 0x213b08
+

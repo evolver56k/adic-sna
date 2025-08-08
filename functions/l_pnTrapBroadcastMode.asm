@@ -1,0 +1,10 @@
+l_pnTrapBroadcastMode:
+.long 0x10203
+.long 0xe4310
+.long 0xe413c
+.long 0xe43e8
+.long 0xe4240
+	...
+.long 0xff
+.long 0xff
+

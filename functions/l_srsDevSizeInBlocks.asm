@@ -1,0 +1,10 @@
+l_srsDevSizeInBlocks:
+.long 0x14203
+.long 0xeffec
+.long 0xefc44
+.long 0xf017c
+.long 0xefde8
+	...
+.long 0xff
+.long 0xff
+

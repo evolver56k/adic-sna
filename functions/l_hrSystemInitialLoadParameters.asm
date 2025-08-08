@@ -1,0 +1,10 @@
+l_hrSystemInitialLoadParameters:
+.long 0x10403
+.long 0x17d8cc
+.long 0xf1008
+.long 0x2c3f40
+.long 0x149584
+	...
+.long 0xff
+.long 0xff
+

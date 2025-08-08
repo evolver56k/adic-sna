@@ -1,0 +1,36 @@
+maxIfIndex:
+nmadd. f31,f31,f31,f31
+rlwinm  r14,r11,12,5,17
+xoris   r5,r3,8308
+xoris   r0,r25,28528
+oris    r14,r11,8307
+xoris   r3,r27,27493
+ndis.  r10,r0,0
+.long 0x43616e27
+ndis.  r0,r1,25193
+xoris   r4,r19,8307
+oris    r18,r11,30309
+ndi.   r0,r17,29551
+ori     r11,r27,25972
+tdlti   r0,0
+ndi.   r5,r27,29811
+xoris   r3,r27,27503
+ndi.   r20,r3,8294
+ori     r9,r11,27749
+oris    r10,r0,0
+rlwinm  r1,r27,13,5,26
+xori    r14,r11,26400
+oris    r15,r19,29216
+xori    r14,r11,28789
+ndis.  r14,r1,11822
+tdlti   r0,0
+rlwimi. r5,r19,12,13,18
+xori    r22,r11,25956
+subfic  r3,r16,24931
+xori    r5,r27,29742
+mpdi   cr4,r14,2560
+ndis.  r18,r3,24944
+subfic  r3,r3,28525
+xoris   r21,r11,28265
+ndis.  r25,r3,0
+

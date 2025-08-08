@@ -1,0 +1,84 @@
+fctTdevInit:
+stwu    r1,-24(r1)
+mflr    r0
+stmw    r29,12(r1)
+stw     r0,28(r1)
+lis     r0,86
+ori     r0,r0,59356
+r29,r3,r0
+lis     r10,10
+i    r10,r10,-11628
+stw     r10,52(r29)
+lis     r9,11
+i    r9,r9,2348
+stw     r9,68(r29)
+lis     r9,10
+i    r9,r9,-11584
+stw     r9,76(r29)
+lis     r9,11
+i    r9,r9,2992
+stw     r9,56(r29)
+lis     r11,10
+i    r11,r11,-11636
+stw     r11,60(r29)
+lis     r9,10
+i    r9,r9,-11036
+stw     r9,88(r29)
+stw     r11,92(r29)
+stw     r11,80(r29)
+stw     r11,84(r29)
+stw     r10,96(r29)
+stw     r11,104(r29)
+li      r0,63
+stw     r0,112(r29)
+li      r0,5
+stw     r0,116(r29)
+li      r0,0
+stw     r0,48(r29)
+stw     r0,472(r29)
+i    r9,r29,128
+rlwinm  r0,r9,0,0,3
+srawi   r11,r0,31
+xor     r3,r11,r0
+subf    r3,r3,r11
+srawi   r3,r3,31
+rlwinm  r0,r9,0,5,3
+nd     r9,r9,r3
+ndc    r3,r0,r3
+or      r3,r9,r3
+lis     r4,51
+i    r4,r4,-32584
+rclr   4*cr1+eq
+l      1794ac <sprintf>
+i    r9,r29,136
+rlwinm  r0,r9,0,0,3
+srawi   r11,r0,31
+xor     r3,r11,r0
+subf    r3,r3,r11
+srawi   r3,r3,31
+rlwinm  r0,r9,0,5,3
+nd     r9,r9,r3
+ndc    r3,r0,r3
+or      r3,r9,r3
+lis     r4,49
+i    r4,r4,19292
+rclr   4*cr1+eq
+l      1794ac <sprintf>
+i    r29,r29,152
+rlwinm  r0,r29,0,0,3
+srawi   r9,r0,31
+xor     r3,r9,r0
+subf    r3,r3,r9
+srawi   r3,r3,31
+rlwinm  r0,r29,0,5,3
+nd     r29,r29,r3
+ndc    r3,r0,r3
+or      r3,r29,r3
+l      646fc <sprintFwareRev>
+li      r3,0
+lwz     r0,28(r1)
+mtlr    r0
+lmw     r29,12(r1)
+i    r1,r1,24
+lr
+

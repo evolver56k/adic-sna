@@ -1,0 +1,3 @@
+vpdSem:
+.long 0x0
+

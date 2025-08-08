@@ -1,0 +1,10 @@
+l_scsiMapCommand:
+.long 0x10203
+.long 0xeedd4
+.long 0xeec08
+.long 0xeee80
+.long 0xeed08
+	...
+.long 0xff
+.long 0xff
+

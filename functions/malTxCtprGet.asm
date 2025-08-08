@@ -1,0 +1,6 @@
+malTxCtprGet:
+.long 0x10338
+.long 0x10348
+.long 0x10358
+.long 0x10368
+

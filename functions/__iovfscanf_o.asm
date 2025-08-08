@@ -1,0 +1,14 @@
+__iovfscanf_o:
+	...
+
+002ccf08 <basefix.2>:
+.long 0xa0001
+.long 0x20003
+.long 0x40005
+.long 0x60007
+.long 0x80009
+.long 0xa000b
+.long 0xc000d
+.long 0xe000f
+.long 0x100000
+

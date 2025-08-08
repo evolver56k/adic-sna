@@ -1,0 +1,3 @@
+__ti16__func_type_info:
+	...
+

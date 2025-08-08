@@ -1,0 +1,16 @@
+snmpMibModules:
+.long 0x114234
+.long 0x11429c
+	...
+
+002c56bc <sysObjectId.30>:
+.long 0x7
+.long 0x1
+.long 0x3
+.long 0x6
+.long 0x1
+.long 0x4
+.long 0x1
+.long 0xb77
+	...
+

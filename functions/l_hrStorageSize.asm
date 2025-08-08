@@ -1,0 +1,10 @@
+l_hrStorageSize:
+.long 0x10203
+.long 0x17d8cc
+.long 0xf1500
+.long 0xf1a00
+.long 0xf1708
+	...
+.long 0xff
+.long 0xff
+

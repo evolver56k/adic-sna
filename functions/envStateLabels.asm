@@ -1,0 +1,7 @@
+envStateLabels:
+.long 0x1f9d08
+.long 0x1f9cfc
+.long 0x1f9cf4
+.long 0x1f9cec
+.long 0x1f9ce4
+

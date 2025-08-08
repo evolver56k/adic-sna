@@ -1,0 +1,3 @@
+Fromcu:
+.long 0x0
+

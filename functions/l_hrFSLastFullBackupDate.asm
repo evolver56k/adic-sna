@@ -1,0 +1,10 @@
+l_hrFSLastFullBackupDate:
+.long 0x10403
+.long 0x17d8cc
+.long 0x13e7c8
+.long 0x13e760
+.long 0x13e770
+	...
+.long 0xff
+.long 0xff
+

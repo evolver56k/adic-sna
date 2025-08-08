@@ -1,0 +1,10 @@
+l_srsMemSyncPoint:
+.long 0x10201
+.long 0x13e750
+.long 0xf03e0
+.long 0x13e760
+.long 0xf0568
+	...
+.long 0xff
+.long 0xff
+

@@ -1,0 +1,7 @@
+elemTypes:
+.long 0x1f051c
+.long 0x1f0500
+.long 0x1f04f0
+.long 0x1f04d8
+.long 0x1f04c0
+

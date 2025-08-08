@@ -1,0 +1,3 @@
+get_sn:
+.long 0x0
+

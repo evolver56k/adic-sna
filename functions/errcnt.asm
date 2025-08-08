@@ -1,0 +1,3 @@
+errcnt:
+.long 0x0
+

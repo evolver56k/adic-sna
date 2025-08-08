@@ -1,0 +1,3 @@
+bcrLCopy:
+mtctr   r5
+

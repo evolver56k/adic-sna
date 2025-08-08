@@ -1,0 +1,3 @@
+vpos:
+.long 0x0
+

@@ -1,0 +1,3 @@
+MPFail:
+.long 0x0
+

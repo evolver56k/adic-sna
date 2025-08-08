@@ -1,0 +1,3 @@
+icache_control:
+lr
+

@@ -1,0 +1,10 @@
+l_sysUpTime:
+.long 0x14301
+.long 0x13e750
+.long 0xe579c
+.long 0x13e760
+.long 0x149584
+	...
+.long 0xff
+.long 0xff
+

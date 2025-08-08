@@ -1,0 +1,10 @@
+l_connUnitPortControl:
+.long 0x10203
+.long 0xf9bf4
+.long 0xf985c
+.long 0xf9d40
+.long 0xf9978
+	...
+.long 0xff
+.long 0xff
+

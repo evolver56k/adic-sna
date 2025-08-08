@@ -1,0 +1,7 @@
+a_hrProcessorEntry:
+.long 0x1
+.long 0x2b5ee0
+.long 0x2
+.long 0x2b5f04
+	...
+

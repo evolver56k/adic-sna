@@ -1,0 +1,30 @@
+usrFsLib_c:
+ozi    r2,r18,25974
+xori    r19,r11,26991
+xoris   r26,r17,8192
+
+002c51ec <help_msg.54>:
+.long 0x202ee0
+.long 0x202eac
+.long 0x202e74
+.long 0x202e2c
+.long 0x202de8
+.long 0x202da4
+.long 0x202d74
+.long 0x202d2c
+.long 0x202cf0
+.long 0x202cbc
+.long 0x202c7c
+.long 0x202c38
+.long 0x202c04
+.long 0x202bc4
+.long 0x202b84
+.long 0x202b48
+.long 0x202b04
+.long 0x20275c
+.long 0x202ac8
+.long 0x202a8c
+.long 0x202a5c
+.long 0x202a14
+.long 0x0
+

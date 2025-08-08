@@ -1,0 +1,6 @@
+cd_svl:
+.long 0x1df17c
+.long 0x279170
+.long 0x0
+.long 0x279190
+

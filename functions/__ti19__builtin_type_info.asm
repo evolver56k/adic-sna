@@ -1,0 +1,3 @@
+__ti19__builtin_type_info:
+	...
+

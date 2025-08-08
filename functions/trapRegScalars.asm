@@ -1,0 +1,4 @@
+trapRegScalars:
+.long 0x20
+.long 0x0
+

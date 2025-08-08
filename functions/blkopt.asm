@@ -1,0 +1,3 @@
+blkopt:
+.long 0x0
+

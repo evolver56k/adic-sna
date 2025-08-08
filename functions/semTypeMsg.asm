@@ -1,0 +1,10 @@
+semTypeMsg:
+.long 0x209be0
+.long 0x209bd8
+.long 0x209bcc
+.long 0x209bc8
+.long 0x209bc4
+.long 0x209bc4
+.long 0x209bc4
+.long 0x209bc4
+

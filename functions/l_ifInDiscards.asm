@@ -1,0 +1,10 @@
+l_ifInDiscards:
+.long 0x14101
+.long 0x13e750
+.long 0xf2818
+.long 0x13e760
+.long 0xf28ec
+	...
+.long 0xff
+.long 0xff
+

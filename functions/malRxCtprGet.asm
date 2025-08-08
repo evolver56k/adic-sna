@@ -1,0 +1,6 @@
+malRxCtprGet:
+.long 0x10378
+.long 0x10388
+.long 0x10398
+.long 0x103a8
+

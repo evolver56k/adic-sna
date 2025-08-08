@@ -1,0 +1,32 @@
+sscanf:
+stwu    r1,-136(r1)
+mflr    r0
+stw     r0,140(r1)
+stw     r3,128(r1)
+stw     r4,12(r1)
+stw     r5,16(r1)
+stw     r6,20(r1)
+stw     r7,24(r1)
+stw     r8,28(r1)
+stw     r9,32(r1)
+stw     r10,36(r1)
+li      r0,2
+stb     r0,112(r1)
+li      r0,0
+stb     r0,113(r1)
+i    r0,r1,8
+stw     r0,120(r1)
+i    r0,r1,144
+stw     r0,116(r1)
+mr      r3,r4
+lis     r4,24
+i    r4,r4,-22744
+i    r5,r1,128
+i    r6,r1,132
+i    r7,r1,112
+l      17a750 <fioScanV>
+lwz     r0,140(r1)
+mtlr    r0
+i    r1,r1,136
+lr
+

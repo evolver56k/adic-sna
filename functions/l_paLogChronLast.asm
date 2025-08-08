@@ -1,0 +1,10 @@
+l_paLogChronLast:
+.long 0x14203
+.long 0xe70a0
+.long 0xe6ebc
+.long 0xe7a94
+.long 0xe6fec
+	...
+.long 0xff
+.long 0xff
+

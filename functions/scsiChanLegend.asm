@@ -1,0 +1,8 @@
+scsiChanLegend:
+.long 0x2020f8
+.long 0x2020d0
+.long 0x20209c
+.long 0x202084
+.long 0x20205c
+.long 0x202028
+

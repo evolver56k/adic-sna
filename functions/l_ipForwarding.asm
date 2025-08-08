@@ -1,0 +1,10 @@
+l_ipForwarding:
+.long 0x10203
+.long 0xf4868
+.long 0xf49b0
+.long 0xf4710
+.long 0x149584
+	...
+.long 0xff
+.long 0xff
+

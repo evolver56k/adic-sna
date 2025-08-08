@@ -1,0 +1,10 @@
+l_hostCommand:
+.long 0x10203
+.long 0xf71d0
+.long 0xf7014
+.long 0xf727c
+.long 0xf7114
+	...
+.long 0xff
+.long 0xff
+

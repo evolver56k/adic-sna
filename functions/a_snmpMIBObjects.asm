@@ -1,0 +1,7 @@
+a_snmpMIBObjects:
+.long 0x4
+.long 0x2bb498
+.long 0x5
+.long 0x2bb520
+	...
+

@@ -1,0 +1,7 @@
+a_sanGateway:
+.long 0x1
+.long 0x2b8508
+.long 0x2
+.long 0x2b8518
+	...
+

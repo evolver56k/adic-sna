@@ -1,0 +1,10 @@
+semTakeTbl:
+.long 0x132f78
+.long 0x132f78
+.long 0x132f78
+.long 0x132f78
+.long 0x132f78
+.long 0x132f78
+.long 0x132f78
+.long 0x132f78
+

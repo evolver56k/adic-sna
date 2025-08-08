@@ -1,0 +1,3 @@
+fout:
+.long 0x0
+

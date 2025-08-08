@@ -1,0 +1,3 @@
+ttSeed:
+.long 0x0
+

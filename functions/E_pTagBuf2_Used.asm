@@ -1,0 +1,7 @@
+E_pTagBuf2_Used:
+.long 0x237
+.long 0x23d
+.long 0x243
+.long 0x249
+.long 0x24f
+

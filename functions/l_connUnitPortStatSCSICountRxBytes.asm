@@ -1,0 +1,10 @@
+l_connUnitPortStatSCSICountRxBytes:
+.long 0x10401
+.long 0x13e750
+.long 0xfbd1c
+.long 0x13e760
+.long 0xfbe3c
+	...
+.long 0xff
+.long 0xff
+

@@ -1,0 +1,7 @@
+a_scsiMap:
+.long 0x1
+.long 0x2ba940
+.long 0x2
+.long 0x2baab8
+	...
+

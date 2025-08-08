@@ -1,0 +1,10 @@
+l_deviceMapCommand:
+.long 0x10203
+.long 0xef88c
+.long 0xef634
+.long 0xef9c0
+.long 0xef7a4
+	...
+.long 0xff
+.long 0xff
+

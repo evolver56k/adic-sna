@@ -1,0 +1,10 @@
+l_tcpConnRemAddress:
+.long 0x14001
+.long 0x13e750
+.long 0xf59ec
+.long 0x13e760
+.long 0xf5b88
+	...
+.long 0xff
+.long 0xff
+

@@ -1,0 +1,3 @@
+ztrans:
+.long 0x0
+

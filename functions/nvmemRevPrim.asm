@@ -1,0 +1,8 @@
+nvmemRevPrim:
+.long 0x21b20
+.long 0x21b34
+.long 0x21b4c
+.long 0x21b8c
+.long 0x21bbc
+.long 0x21bf0
+

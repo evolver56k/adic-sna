@@ -1,0 +1,9 @@
+regStates:
+.long 0x1e29b4
+.long 0x1e29ac
+.long 0x1e2e84
+.long 0x1e2e78
+.long 0x1e2e70
+.long 0x1e2e64
+.long 0x1e2e5c
+

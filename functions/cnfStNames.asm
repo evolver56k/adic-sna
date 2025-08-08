@@ -1,0 +1,9 @@
+cnfStNames:
+.long 0x1f2378
+.long 0x1f2370
+.long 0x1f2368
+.long 0x1f2360
+.long 0x1f2358
+.long 0x1f234c
+.long 0x1f2344
+

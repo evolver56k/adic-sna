@@ -1,0 +1,7 @@
+a_ifMIB:
+.long 0x1
+.long 0x2b6b5c
+.long 0x2
+.long 0x2b6d04
+	...
+

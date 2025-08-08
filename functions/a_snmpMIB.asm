@@ -1,0 +1,7 @@
+a_snmpMIB:
+.long 0x1
+.long 0x2bb540
+.long 0x2
+.long 0x2bb628
+	...
+

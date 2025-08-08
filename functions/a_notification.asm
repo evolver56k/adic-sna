@@ -1,0 +1,7 @@
+a_notification:
+.long 0x1
+.long 0x2ba2a0
+.long 0x2
+.long 0x2ba2a8
+	...
+

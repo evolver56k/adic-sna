@@ -1,0 +1,3 @@
+yychar:
+.long 0x0
+

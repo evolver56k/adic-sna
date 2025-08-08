@@ -1,0 +1,7 @@
+a_snmpMIBConformance:
+.long 0x1
+.long 0x2bb568
+.long 0x2
+.long 0x2bb608
+	...
+

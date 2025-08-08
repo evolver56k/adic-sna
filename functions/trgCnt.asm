@@ -1,0 +1,3 @@
+trgCnt:
+.long 0x0
+

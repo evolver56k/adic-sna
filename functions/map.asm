@@ -1,0 +1,34 @@
+map:
+nmadd. f31,f31,f31,f31
+nmadd  f31,f31,f31,f31
+nmsub  f31,f31,f31,f31
+msub   f31,f31,f31,f31
+.long 0xfffffff0
+.long 0xffffffe0
+.long 0xffffffc0
+.long 0xffffff80
+.long 0xffffff00
+.long 0xfffffe00
+.long 0xfffffc00
+.long 0xfffff800
+.long 0xfffff000
+.long 0xffffe000
+.long 0xffffc000
+.long 0xffff8000
+.long 0xffff0000
+.long 0xfffe0000
+.long 0xfffc0000
+.long 0xfff80000
+.long 0xfff00000
+.long 0xffe00000
+.long 0xffc00000
+mpu   cr7,f0,f0
+mpu   cr6,f0,f0
+mpu   cr4,f0,f0
+mpu   cr0,f0,f0
+std     r0,0(0)
+.long 0xf0000000
+.long 0xe0000000
+lfs     f0,0(0)
+lwz     r0,0(0)
+

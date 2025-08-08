@@ -1,0 +1,9 @@
+a_ifStackEntry:
+.long 0x1
+.long 0x2b69d0
+.long 0x2
+.long 0x2b69e0
+.long 0x3
+.long 0x2b69e8
+	...
+

@@ -1,0 +1,3 @@
+intCnt:
+.long 0x0
+

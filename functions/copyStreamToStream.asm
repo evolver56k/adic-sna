@@ -1,0 +1,1171 @@
+copyStreamToStream:
+stwu    r1,-96(r1)
+mflr    r0
+stmw    r14,24(r1)
+stw     r0,100(r1)
+mr      r31,r3
+lbz     r11,2741(r31)
+lbz     r9,2742(r31)
+lbz     r0,2743(r31)
+rlwinm  r11,r11,24,0,7
+rlwinm  r9,r9,16,0,15
+or      r9,r9,r11
+rlwinm  r0,r0,8,0,23
+lbz     r11,2744(r31)
+or      r0,r0,r9
+or.     r9,r11,r0
+li      r26,0
+li      r27,0
+li      r18,0
+q-    8d034 <copyStreamToStream+0x7c>
+lbz     r11,52(r31)
+lbz     r9,53(r31)
+lbz     r0,54(r31)
+rlwinm  r11,r11,24,0,7
+rlwinm  r9,r9,16,0,15
+or      r9,r9,r11
+rlwinm  r0,r0,8,0,23
+lbz     r11,55(r31)
+or      r0,r0,r9
+or      r27,r11,r0
+lbz     r25,1(r27)
+<copyStreamToStream+0xa8>
+lbz     r11,52(r31)
+lbz     r9,53(r31)
+lbz     r0,54(r31)
+rlwinm  r11,r11,24,0,7
+rlwinm  r9,r9,16,0,15
+or      r9,r9,r11
+rlwinm  r0,r0,8,0,23
+lbz     r11,55(r31)
+or      r0,r0,r9
+or      r26,r11,r0
+lbz     r25,1(r26)
+mr      r3,r31
+i    r4,r1,16
+i    r5,r1,20
+lbz     r0,24(r31)
+lbz     r0,25(r31)
+lbz     r0,26(r31)
+lbz     r0,27(r31)
+l      86244 <copyCheckSegTargets>
+mr.     r22,r3
+ne-    8e1e4 <copyStreamToStream+0x122c>
+lwz     r0,16(r1)
+rlwinm  r11,r0,2,0,29
+r11,r11,r0
+rlwinm  r11,r11,2,0,29
+r11,r31,r11
+lbz     r3,121(r11)
+lbz     r6,122(r11)
+lbz     r5,123(r11)
+lbz     r28,124(r11)
+lbz     r0,117(r11)
+lbz     r0,118(r11)
+lbz     r0,119(r11)
+lwz     r0,20(r1)
+lbz     r9,120(r11)
+rlwinm  r9,r0,2,0,29
+r9,r9,r0
+rlwinm  r9,r9,2,0,29
+r9,r31,r9
+rlwinm  r3,r3,24,0,7
+rlwinm  r6,r6,16,0,15
+or      r6,r6,r3
+rlwinm  r5,r5,8,0,23
+or      r5,r5,r6
+or      r19,r28,r5
+lbz     r4,121(r9)
+lbz     r8,122(r9)
+lbz     r7,123(r9)
+lbz     r29,124(r9)
+lbz     r0,117(r9)
+lbz     r0,118(r9)
+lbz     r0,119(r9)
+lbz     r0,120(r9)
+lbz     r9,133(r11)
+lbz     r10,134(r11)
+lbz     r0,135(r11)
+rlwinm  r9,r9,24,0,7
+rlwinm  r10,r10,16,0,15
+or      r10,r10,r9
+rlwinm  r0,r0,8,0,23
+or      r0,r0,r10
+lbz     r9,136(r11)
+rlwinm  r4,r4,24,0,7
+or      r9,r9,r0
+lbz     r9,0(r9)
+lbz     r0,88(r31)
+li      r0,0
+stb     r0,88(r31)
+lbz     r0,89(r31)
+li      r0,0
+stb     r0,89(r31)
+lbz     r0,90(r31)
+li      r0,0
+stb     r0,90(r31)
+lbz     r0,91(r31)
+rlwinm  r9,r9,0,29,29
+stb     r9,91(r31)
+lwz     r0,20(r1)
+rlwinm  r8,r8,16,0,15
+rlwinm  r9,r0,2,0,29
+r9,r9,r0
+rlwinm  r9,r9,2,0,29
+r9,r31,r9
+lbz     r10,133(r9)
+lbz     r11,134(r9)
+lbz     r0,135(r9)
+lbz     r9,136(r9)
+rlwinm  r10,r10,24,0,7
+rlwinm  r11,r11,16,0,15
+or      r11,r11,r10
+rlwinm  r0,r0,8,0,23
+or      r0,r0,r11
+or      r9,r9,r0
+lbz     r9,0(r9)
+lbz     r0,92(r31)
+li      r0,0
+stb     r0,92(r31)
+lbz     r0,93(r31)
+li      r0,0
+stb     r0,93(r31)
+lbz     r0,94(r31)
+li      r0,0
+stb     r0,94(r31)
+lbz     r0,95(r31)
+rlwinm  r9,r9,0,29,29
+stb     r9,95(r31)
+lis     r9,43
+lwz     r0,9156(r9)
+or      r8,r8,r4
+mpwi   cr1,r0,4
+rlwinm  r7,r7,8,0,23
+or      r7,r7,r8
+or      r16,r29,r7
+le-    cr1,8d268 <copyStreamToStream+0x2b0>
+lis     r3,30
+i    r3,r3,31840
+li      r6,0
+li      r7,0
+li      r8,0
+li      r9,0
+lbz     r11,88(r31)
+lbz     r0,89(r31)
+lbz     r4,90(r31)
+rlwinm  r11,r11,24,0,7
+rlwinm  r0,r0,16,0,15
+or      r0,r0,r11
+rlwinm  r4,r4,8,0,23
+lbz     r11,91(r31)
+or      r4,r4,r0
+or      r4,r11,r4
+lbz     r11,92(r31)
+lbz     r0,93(r31)
+lbz     r5,94(r31)
+rlwinm  r11,r11,24,0,7
+rlwinm  r0,r0,16,0,15
+or      r0,r0,r11
+rlwinm  r5,r5,8,0,23
+lbz     r11,95(r31)
+or      r5,r5,r0
+or      r5,r11,r5
+l      150934 <logMsg>
+mr      r3,r31
+l      984f8 <copyGetSrcDevXferLen>
+lwz     r0,16(r1)
+rlwinm  r9,r0,2,0,29
+r9,r9,r0
+rlwinm  r9,r9,2,0,29
+r9,r31,r9
+lbz     r10,133(r9)
+lbz     r11,134(r9)
+lbz     r0,135(r9)
+lbz     r9,136(r9)
+rlwinm  r10,r10,24,0,7
+rlwinm  r11,r11,16,0,15
+or      r11,r11,r10
+rlwinm  r0,r0,8,0,23
+or      r0,r0,r11
+or      r20,r9,r0
+lbz     r0,0(r20)
+ndi.   r9,r0,1
+mr      r15,r3
+q-    8d2dc <copyStreamToStream+0x324>
+lbz     r0,1(r20)
+lbz     r9,2(r20)
+lbz     r11,3(r20)
+rlwinm  r0,r0,16,0,15
+rlwinm  r9,r9,8,0,23
+or      r0,r0,r9
+or      r0,r0,r11
+<copyStreamToStream+0x328>
+li      r0,1
+mullw   r30,r15,r0
+mr      r3,r31
+l      985f4 <copyGetDstDevXferLen>
+lwz     r0,20(r1)
+rlwinm  r9,r0,2,0,29
+r9,r9,r0
+rlwinm  r9,r9,2,0,29
+r9,r31,r9
+lbz     r10,133(r9)
+lbz     r11,134(r9)
+lbz     r0,135(r9)
+lbz     r9,136(r9)
+rlwinm  r10,r10,24,0,7
+rlwinm  r11,r11,16,0,15
+or      r11,r11,r10
+rlwinm  r0,r0,8,0,23
+or      r0,r0,r11
+or      r20,r9,r0
+lbz     r0,0(r20)
+ndi.   r9,r0,1
+mr      r17,r3
+q-    8d358 <copyStreamToStream+0x3a0>
+lbz     r0,1(r20)
+lbz     r9,2(r20)
+lbz     r11,3(r20)
+rlwinm  r0,r0,16,0,15
+rlwinm  r9,r9,8,0,23
+or      r0,r0,r9
+or      r0,r0,r11
+<copyStreamToStream+0x3a4>
+li      r0,1
+mullw   r23,r17,r0
+mr      r3,r31
+l      986f0 <copyGetXferCount>
+lbz     r11,2741(r31)
+lbz     r9,2742(r31)
+lbz     r0,2743(r31)
+rlwinm  r11,r11,24,0,7
+rlwinm  r9,r9,16,0,15
+or      r9,r9,r11
+rlwinm  r0,r0,8,0,23
+lbz     r11,2744(r31)
+or      r0,r0,r9
+or.     r9,r11,r0
+mr      r12,r3
+q-    8d718 <copyStreamToStream+0x760>
+lbz     r0,1(r27)
+ndi.   r9,r0,2
+q-    8d448 <copyStreamToStream+0x490>
+lis     r9,43
+lwz     r0,9156(r9)
+mpwi   cr1,r0,0
+le-    cr1,8d3d8 <copyStreamToStream+0x420>
+lis     r3,30
+i    r3,r3,31868
+li      r4,38
+li      r5,2
+li      r6,0
+li      r7,0
+li      r8,0
+li      r9,0
+l      150934 <logMsg>
+li      r4,38
+li      r5,2
+li      r7,1
+li      r8,1
+li      r9,1
+lbz     r11,20(r31)
+lbz     r0,21(r31)
+lbz     r3,22(r31)
+rlwinm  r11,r11,24,0,7
+rlwinm  r0,r0,16,0,15
+or      r0,r0,r11
+rlwinm  r3,r3,8,0,23
+lbz     r11,23(r31)
+or      r3,r3,r0
+or      r3,r11,r3
+lbz     r11,2681(r31)
+lbz     r0,2682(r31)
+lbz     r6,2683(r31)
+rlwinm  r11,r11,24,0,7
+rlwinm  r0,r0,16,0,15
+or      r0,r0,r11
+rlwinm  r6,r6,8,0,23
+lbz     r11,2684(r31)
+or      r6,r6,r0
+or      r6,r11,r6
+l      93274 <illReqSeg>
+li      r3,2
+<copyStreamToStream+0x1230>
+rlwinm  r0,r12,8,24,31
+lbz     r4,2713(r31)
+lbz     r10,2714(r31)
+lbz     r8,2715(r31)
+lbz     r28,2716(r31)
+lbz     r3,2717(r31)
+lbz     r6,2718(r31)
+lbz     r5,2719(r31)
+lbz     r29,2720(r31)
+lbz     r9,2693(r31)
+stb     r0,2693(r31)
+rlwinm  r0,r12,16,16,31
+lbz     r9,2694(r31)
+stb     r0,2694(r31)
+rlwinm  r0,r12,24,8,31
+lbz     r9,2695(r31)
+stb     r0,2695(r31)
+lbz     r0,2696(r31)
+mr      r0,r12
+stb     r0,2696(r31)
+rlwinm  r27,r23,8,24,31
+rlwinm  r26,r23,16,16,31
+rlwinm  r25,r23,24,8,31
+lbz     r7,2693(r31)
+lbz     r0,2694(r31)
+lbz     r11,2695(r31)
+lbz     r9,2696(r31)
+lbz     r24,2697(r31)
+rlwinm  r4,r4,24,0,7
+rlwinm  r10,r10,16,0,15
+or      r10,r10,r4
+rlwinm  r8,r8,8,0,23
+or      r8,r8,r10
+or      r28,r28,r8
+rlwinm  r3,r3,24,0,7
+rlwinm  r6,r6,16,0,15
+or      r6,r6,r3
+rlwinm  r5,r5,8,0,23
+or      r5,r5,r6
+or      r29,r29,r5
+subf    r28,r29,r28
+rlwinm  r7,r7,24,0,7
+rlwinm  r0,r0,16,0,15
+or      r0,r0,r7
+rlwinm  r11,r11,8,0,23
+or      r11,r11,r0
+or      r9,r9,r11
+r9,r9,r28
+rlwinm  r0,r9,8,24,31
+stb     r0,2697(r31)
+rlwinm  r0,r9,16,16,31
+lbz     r11,2698(r31)
+stb     r0,2698(r31)
+rlwinm  r0,r9,24,8,31
+lbz     r11,2699(r31)
+stb     r0,2699(r31)
+lbz     r0,2700(r31)
+stb     r9,2700(r31)
+lbz     r0,2685(r31)
+stb     r27,2685(r31)
+lbz     r0,2686(r31)
+stb     r26,2686(r31)
+lbz     r0,2687(r31)
+stb     r25,2687(r31)
+lbz     r0,2688(r31)
+mr      r0,r23
+stb     r0,2688(r31)
+lbz     r0,2717(r31)
+lbz     r11,2718(r31)
+lbz     r9,2719(r31)
+rlwinm  r0,r0,24,0,7
+rlwinm  r11,r11,16,0,15
+or      r11,r11,r0
+rlwinm  r9,r9,8,0,23
+lbz     r0,2720(r31)
+or      r9,r9,r11
+or      r0,r0,r9
+mplw   cr1,r0,r12
+li      r10,0
+lt-    cr1,8d5ec <copyStreamToStream+0x634>
+li      r24,0
+r28,r28,r12
+lbz     r10,2717(r31)
+lbz     r0,2718(r31)
+lbz     r11,2719(r31)
+lbz     r9,2720(r31)
+lbz     r8,2717(r31)
+rlwinm  r10,r10,24,0,7
+rlwinm  r0,r0,16,0,15
+or      r0,r0,r10
+rlwinm  r11,r11,8,0,23
+or      r11,r11,r0
+or      r9,r9,r11
+subf    r9,r12,r9
+rlwinm  r0,r9,8,24,31
+stb     r0,2717(r31)
+rlwinm  r0,r9,16,16,31
+lbz     r11,2718(r31)
+stb     r0,2718(r31)
+rlwinm  r0,r9,24,8,31
+lbz     r11,2719(r31)
+stb     r0,2719(r31)
+lbz     r0,2720(r31)
+stb     r9,2720(r31)
+<copyStreamToStream+0x68c>
+lbz     r11,2717(r31)
+lbz     r9,2718(r31)
+lbz     r0,2719(r31)
+rlwinm  r11,r11,24,0,7
+rlwinm  r9,r9,16,0,15
+or      r9,r9,r11
+rlwinm  r0,r0,8,0,23
+lbz     r11,2720(r31)
+or      r0,r0,r9
+nor     r24,r0,r11
+r0,r24,r12
+r24,r0,r30
+ivwu   r0,r24,r30
+lbz     r9,2717(r31)
+stb     r10,2717(r31)
+lbz     r9,2718(r31)
+stb     r10,2718(r31)
+lbz     r9,2719(r31)
+stb     r10,2719(r31)
+lbz     r9,2720(r31)
+stb     r10,2720(r31)
+mullw   r24,r0,r30
+lbz     r11,2697(r31)
+lbz     r9,2698(r31)
+lbz     r0,2699(r31)
+rlwinm  r11,r11,24,0,7
+rlwinm  r9,r9,16,0,15
+or      r9,r9,r11
+rlwinm  r0,r0,8,0,23
+lbz     r11,2700(r31)
+or      r0,r0,r9
+or      r27,r11,r0
+ivwu   r11,r27,r23
+lis     r9,43
+lwz     r0,9156(r9)
+mpwi   cr1,r0,3
+mullw   r27,r11,r23
+le-    cr1,8d94c <copyStreamToStream+0x994>
+lis     r3,30
+i    r3,r3,31956
+mr      r5,r28
+mr      r8,r24
+mr      r9,r27
+lbz     r11,2693(r31)
+lbz     r0,2694(r31)
+lbz     r4,2695(r31)
+rlwinm  r11,r11,24,0,7
+rlwinm  r0,r0,16,0,15
+or      r0,r0,r11
+rlwinm  r4,r4,8,0,23
+lbz     r11,2696(r31)
+or      r4,r4,r0
+or      r4,r11,r4
+lbz     r11,2697(r31)
+lbz     r0,2698(r31)
+lbz     r6,2699(r31)
+rlwinm  r11,r11,24,0,7
+rlwinm  r0,r0,16,0,15
+or      r0,r0,r11
+rlwinm  r6,r6,8,0,23
+lbz     r11,2700(r31)
+or      r6,r6,r0
+or      r6,r11,r6
+lbz     r11,2717(r31)
+lbz     r0,2718(r31)
+lbz     r7,2719(r31)
+rlwinm  r11,r11,24,0,7
+rlwinm  r0,r0,16,0,15
+or      r0,r0,r11
+rlwinm  r7,r7,8,0,23
+lbz     r11,2720(r31)
+or      r7,r7,r0
+or      r7,r11,r7
+l      150934 <logMsg>
+<copyStreamToStream+0x994>
+lbz     r0,1(r26)
+ndi.   r9,r0,2
+q-    8d810 <copyStreamToStream+0x858>
+mullw   r27,r12,r23
+rlwinm  r0,r23,8,24,31
+lbz     r9,2685(r31)
+stb     r0,2685(r31)
+rlwinm  r0,r23,16,16,31
+lbz     r9,2686(r31)
+stb     r0,2686(r31)
+rlwinm  r0,r23,24,8,31
+lbz     r9,2687(r31)
+stb     r0,2687(r31)
+lbz     r0,2688(r31)
+mr      r0,r23
+stb     r0,2688(r31)
+lbz     r0,2713(r31)
+lbz     r11,2714(r31)
+lbz     r9,2715(r31)
+rlwinm  r0,r0,24,0,7
+rlwinm  r11,r11,16,0,15
+or      r11,r11,r0
+rlwinm  r9,r9,8,0,23
+lbz     r0,2716(r31)
+or      r9,r9,r11
+or      r0,r0,r9
+mplw   cr1,r27,r0
+mr      r4,r23
+gt-    cr1,8d794 <copyStreamToStream+0x7dc>
+li      r24,0
+<copyStreamToStream+0x90c>
+lbz     r0,2713(r31)
+lbz     r11,2714(r31)
+ndi.   r10,r25,1
+rlwinm  r0,r0,24,0,7
+rlwinm  r11,r11,16,0,15
+or      r11,r11,r0
+lbz     r0,2715(r31)
+lbz     r9,2716(r31)
+rlwinm  r0,r0,8,0,23
+or      r0,r0,r11
+or      r9,r9,r0
+subf    r24,r9,r27
+ne-    8d7f4 <copyStreamToStream+0x83c>
+lbz     r11,92(r31)
+lbz     r9,93(r31)
+lbz     r0,94(r31)
+rlwinm  r11,r11,24,0,7
+rlwinm  r9,r9,16,0,15
+or      r9,r9,r11
+rlwinm  r0,r0,8,0,23
+lbz     r11,95(r31)
+or      r0,r0,r9
+or.     r9,r11,r0
+ne-    8d7fc <copyStreamToStream+0x844>
+i    r0,r24,-1
+r24,r0,r30
+mpwi   cr1,r30,0
+q-    cr1,8d8c4 <copyStreamToStream+0x90c>
+ivwu   r0,r24,r30
+mullw   r24,r0,r30
+<copyStreamToStream+0x90c>
+mullw   r24,r12,r30
+rlwinm  r0,r30,8,24,31
+lbz     r9,2685(r31)
+stb     r0,2685(r31)
+rlwinm  r0,r30,16,16,31
+lbz     r9,2686(r31)
+stb     r0,2686(r31)
+rlwinm  r0,r30,24,8,31
+lbz     r9,2687(r31)
+stb     r0,2687(r31)
+lbz     r0,2688(r31)
+mr      r0,r30
+stb     r0,2688(r31)
+lbz     r0,2713(r31)
+lbz     r11,2714(r31)
+mr      r4,r30
+mpwi   cr1,r23,0
+rlwinm  r0,r0,24,0,7
+rlwinm  r11,r11,16,0,15
+or      r11,r11,r0
+lbz     r0,2715(r31)
+lbz     r9,2716(r31)
+rlwinm  r0,r0,8,0,23
+or      r0,r0,r11
+or      r9,r9,r0
+r27,r9,r24
+q-    cr1,8d8c4 <copyStreamToStream+0x90c>
+ndi.   r0,r25,1
+ne-    8d8c4 <copyStreamToStream+0x90c>
+lbz     r0,92(r31)
+lbz     r11,93(r31)
+lbz     r9,94(r31)
+rlwinm  r0,r0,24,0,7
+rlwinm  r11,r11,16,0,15
+or      r11,r11,r0
+rlwinm  r9,r9,8,0,23
+lbz     r0,95(r31)
+or      r9,r9,r11
+or      r0,r0,r9
+mpwi   cr1,r0,4
+ne-    cr1,8d8c4 <copyStreamToStream+0x90c>
+i    r0,r27,-1
+r27,r0,r23
+ivwu   r0,r27,r23
+mullw   r27,r0,r23
+rlwinm  r7,r27,8,24,31
+rlwinm  r6,r27,16,16,31
+rlwinm  r5,r27,24,8,31
+lbz     r11,2713(r31)
+lbz     r0,2714(r31)
+lbz     r9,2715(r31)
+lbz     r8,2716(r31)
+lbz     r10,2693(r31)
+mullw   r10,r12,r4
+rlwinm  r11,r11,24,0,7
+rlwinm  r0,r0,16,0,15
+or      r0,r0,r11
+rlwinm  r9,r9,8,0,23
+or      r9,r9,r0
+or      r28,r8,r9
+rlwinm  r0,r10,8,24,31
+stb     r0,2693(r31)
+rlwinm  r0,r10,16,16,31
+lbz     r9,2694(r31)
+stb     r0,2694(r31)
+rlwinm  r0,r10,24,8,31
+lbz     r9,2695(r31)
+stb     r0,2695(r31)
+lbz     r0,2696(r31)
+stb     r10,2696(r31)
+lbz     r0,2697(r31)
+stb     r7,2697(r31)
+lbz     r0,2698(r31)
+stb     r6,2698(r31)
+lbz     r0,2699(r31)
+stb     r5,2699(r31)
+lbz     r0,2700(r31)
+mr      r0,r27
+stb     r0,2700(r31)
+lbz     r10,2697(r31)
+lbz     r0,2698(r31)
+lbz     r9,2699(r31)
+lbz     r11,2700(r31)
+lbz     r8,2701(r31)
+rlwinm  r10,r10,24,0,7
+rlwinm  r0,r0,16,0,15
+or      r0,r0,r10
+rlwinm  r9,r9,8,0,23
+or      r9,r9,r0
+or      r11,r11,r9
+rlwinm  r0,r11,8,24,31
+stb     r0,2701(r31)
+rlwinm  r0,r11,16,16,31
+lbz     r9,2702(r31)
+stb     r0,2702(r31)
+rlwinm  r0,r11,24,8,31
+lbz     r9,2703(r31)
+stb     r0,2703(r31)
+lbz     r0,2704(r31)
+stb     r11,2704(r31)
+lis     r9,43
+lwz     r0,9156(r9)
+mpwi   cr1,r0,3
+le-    cr1,8da1c <copyStreamToStream+0xa64>
+lis     r3,30
+i    r3,r3,32052
+mr      r4,r24
+mr      r5,r27
+mr      r8,r30
+mr      r9,r23
+lbz     r11,2713(r31)
+lbz     r0,2714(r31)
+lbz     r6,2715(r31)
+rlwinm  r11,r11,24,0,7
+rlwinm  r0,r0,16,0,15
+or      r0,r0,r11
+rlwinm  r6,r6,8,0,23
+lbz     r11,2716(r31)
+or      r6,r6,r0
+or      r6,r11,r6
+lbz     r11,2717(r31)
+lbz     r0,2718(r31)
+lbz     r7,2719(r31)
+rlwinm  r11,r11,24,0,7
+rlwinm  r0,r0,16,0,15
+or      r0,r0,r11
+rlwinm  r7,r7,8,0,23
+lbz     r11,2720(r31)
+or      r7,r7,r0
+or      r7,r11,r7
+l      150934 <logMsg>
+ic   r0,r24,-1
+subfe   r9,r0,r24
+subfic  r11,r30,0
+r0,r11,r30
+nd.    r11,r9,r0
+li      r29,0
+ne-    8da44 <copyStreamToStream+0xa8c>
+lis     r0,16
+mplw   cr1,r30,r0
+le-    cr1,8da48 <copyStreamToStream+0xa90>
+li      r29,1
+mpwi   cr1,r29,0
+ne-    cr1,8da74 <copyStreamToStream+0xabc>
+ic   r0,r27,-1
+subfe   r9,r0,r27
+subfic  r11,r23,0
+r0,r11,r23
+nd.    r11,r9,r0
+ne-    8da74 <copyStreamToStream+0xabc>
+lis     r0,16
+mplw   cr1,r23,r0
+le-    cr1,8db54 <copyStreamToStream+0xb9c>
+lis     r9,43
+lwz     r0,9156(r9)
+mpwi   cr1,r0,0
+le-    cr1,8dad0 <copyStreamToStream+0xb18>
+mpwi   cr1,r29,0
+q-    cr1,8da98 <copyStreamToStream+0xae0>
+lis     r9,30
+i    r6,r9,32204
+<copyStreamToStream+0xae8>
+lis     r9,30
+i    r6,r9,32212
+lis     r3,30
+i    r3,r3,32160
+li      r4,38
+li      r5,2
+neg     r0,r29
+srawi   r0,r0,31
+nd     r7,r30,r0
+ndc    r0,r23,r0
+or      r7,r7,r0
+li      r8,0
+li      r9,0
+l      150934 <logMsg>
+li      r4,38
+li      r5,2
+li      r7,1
+ic   r8,r29,-1
+subfe   r8,r8,r8
+ndi.   r8,r8,13
+ori     r8,r8,9
+li      r9,0
+li      r22,2
+lbz     r11,20(r31)
+lbz     r0,21(r31)
+lbz     r3,22(r31)
+rlwinm  r11,r11,24,0,7
+rlwinm  r0,r0,16,0,15
+or      r0,r0,r11
+rlwinm  r3,r3,8,0,23
+lbz     r11,23(r31)
+or      r3,r3,r0
+or      r3,r11,r3
+lbz     r11,2681(r31)
+lbz     r0,2682(r31)
+lbz     r6,2683(r31)
+rlwinm  r11,r11,24,0,7
+rlwinm  r0,r0,16,0,15
+or      r0,r0,r11
+rlwinm  r6,r6,8,0,23
+lbz     r11,2684(r31)
+or      r6,r6,r0
+or      r6,r11,r6
+l      93274 <illReqSeg>
+<copyStreamToStream+0x122c>
+i    r18,r18,1
+<copyStreamToStream+0x11dc>
+lis     r29,43
+lwz     r0,9156(r29)
+mpwi   cr1,r0,1
+le-    cr1,8db88 <copyStreamToStream+0xbd0>
+lis     r3,30
+i    r3,r3,32220
+mr      r4,r24
+mr      r6,r30
+mr      r7,r27
+lwz     r5,16(r1)
+lwz     r8,20(r1)
+mr      r9,r23
+l      150934 <logMsg>
+mplw   cr1,r28,r23
+lt-    cr1,8dbe0 <copyStreamToStream+0xc28>
+lwz     r0,9156(r29)
+mpwi   cr1,r0,3
+le-    cr1,8dbc0 <copyStreamToStream+0xc08>
+lis     r3,30
+i    r3,r3,32288
+mr      r4,r28
+mr      r5,r23
+li      r6,0
+li      r7,0
+li      r8,0
+li      r9,0
+l      150934 <logMsg>
+mr      r3,r31
+mr      r4,r23
+mr      r5,r20
+mr      r6,r16
+mr      r7,r17
+l      84e10 <copyWriteToStream>
+mr.     r22,r3
+ne-    8e1e4 <copyStreamToStream+0x122c>
+mr.     r14,r24
+q-    8e194 <copyStreamToStream+0x11dc>
+lbz     r0,2689(r31)
+ndi.   r9,r0,128
+lbz     r0,2690(r31)
+lbz     r0,2691(r31)
+lbz     r0,2692(r31)
+ne-    8e194 <copyStreamToStream+0x11dc>
+li      r21,0
+mpwi   cr1,r18,0
+ne+    cr1,8db4c <copyStreamToStream+0xb94>
+lis     r9,43
+lwz     r0,9156(r9)
+mpwi   cr1,r0,3
+le-    cr1,8dc64 <copyStreamToStream+0xcac>
+lis     r3,30
+i    r3,r3,32368
+mr      r4,r24
+li      r6,0
+li      r7,0
+li      r8,0
+li      r9,0
+lbz     r11,2697(r31)
+lbz     r0,2698(r31)
+lbz     r5,2699(r31)
+rlwinm  r11,r11,24,0,7
+rlwinm  r0,r0,16,0,15
+or      r0,r0,r11
+rlwinm  r5,r5,8,0,23
+lbz     r11,2700(r31)
+or      r5,r5,r0
+or      r5,r11,r5
+l      150934 <logMsg>
+lbz     r11,2713(r31)
+lbz     r9,2714(r31)
+lbz     r0,2715(r31)
+rlwinm  r11,r11,24,0,7
+rlwinm  r9,r9,16,0,15
+or      r9,r9,r11
+rlwinm  r0,r0,8,0,23
+lbz     r11,2716(r31)
+or      r0,r0,r9
+or.     r9,r11,r0
+ne-    8dcbc <copyStreamToStream+0xd04>
+lbz     r11,2717(r31)
+lbz     r9,2718(r31)
+lbz     r0,2719(r31)
+rlwinm  r11,r11,24,0,7
+rlwinm  r9,r9,16,0,15
+or      r9,r9,r11
+rlwinm  r0,r0,8,0,23
+lbz     r11,2720(r31)
+or      r0,r0,r9
+or.     r9,r11,r0
+q-    8dcd4 <copyStreamToStream+0xd1c>
+mr      r3,r31
+mr      r4,r30
+l      84894 <copyShiftBuffer>
+mr.     r22,r3
+ne-    8e1e4 <copyStreamToStream+0x122c>
+<copyStreamToStream+0xd5c>
+lbz     r0,2705(r31)
+stb     r21,2705(r31)
+lbz     r0,2706(r31)
+stb     r21,2706(r31)
+lbz     r0,2707(r31)
+stb     r21,2707(r31)
+lbz     r0,2708(r31)
+stb     r21,2708(r31)
+lbz     r0,2709(r31)
+stb     r21,2709(r31)
+lbz     r0,2710(r31)
+stb     r21,2710(r31)
+lbz     r0,2711(r31)
+stb     r21,2711(r31)
+lbz     r0,2712(r31)
+stb     r21,2712(r31)
+mr      r3,r31
+li      r4,1
+mr      r6,r19
+mr      r7,r30
+mr      r8,r15
+li      r9,0
+lbz     r5,0(r20)
+lbz     r26,24(r31)
+lbz     r27,25(r31)
+lbz     r10,26(r31)
+lbz     r25,27(r31)
+lbz     r29,2677(r31)
+lbz     r11,2678(r31)
+lbz     r0,2679(r31)
+lbz     r28,2680(r31)
+rlwinm  r29,r29,24,0,7
+rlwinm  r11,r11,16,0,15
+or      r11,r11,r29
+rlwinm  r0,r0,8,0,23
+or      r0,r0,r11
+or      r28,r28,r0
+rlwinm  r26,r26,24,0,7
+rlwinm  r27,r27,16,0,15
+or      r27,r27,r26
+rlwinm  r10,r10,8,0,23
+or      r10,r10,r27
+or      r10,r25,r10
+lbz     r0,2705(r31)
+lbz     r29,2706(r31)
+lbz     r11,2707(r31)
+rlwinm  r0,r0,24,0,7
+rlwinm  r29,r29,16,0,15
+or      r29,r29,r0
+rlwinm  r11,r11,8,0,23
+lbz     r0,2708(r31)
+or      r11,r11,r29
+or      r0,r0,r11
+r28,r28,r0
+stw     r28,8(r1)
+l      83ed0 <copyStrmRW>
+mpwi   cr1,r3,0
+q-    cr1,8e048 <copyStreamToStream+0x1090>
+lis     r9,43
+lwz     r0,9156(r9)
+mpwi   cr1,r0,0
+le-    cr1,8ddf0 <copyStreamToStream+0xe38>
+lis     r3,30
+i    r3,r3,32396
+li      r4,0
+li      r5,0
+li      r6,0
+li      r7,0
+li      r8,0
+li      r9,0
+l      150934 <logMsg>
+lis     r9,43
+lwz     r0,9164(r9)
+mpwi   cr1,r0,0
+li      r22,2
+q-    cr1,8e1e4 <copyStreamToStream+0x122c>
+lbz     r0,12(r19)
+ndi.   r9,r0,128
+q-    8e1e4 <copyStreamToStream+0x122c>
+lbz     r0,14(r19)
+ndi.   r9,r0,32
+q-    8e1e4 <copyStreamToStream+0x122c>
+lbz     r0,15(r19)
+lbz     r9,16(r19)
+lbz     r11,17(r19)
+rlwinm  r0,r0,24,0,7
+rlwinm  r9,r9,16,0,15
+or      r0,r0,r9
+rlwinm  r11,r11,8,0,23
+lbz     r9,18(r19)
+or      r0,r0,r11
+or.     r0,r0,r9
+gt-    8df30 <copyStreamToStream+0xf78>
+subf    r24,r30,r24
+lbz     r8,2713(r31)
+lbz     r0,2714(r31)
+lbz     r11,2715(r31)
+lbz     r9,2716(r31)
+lbz     r10,2713(r31)
+rlwinm  r8,r8,24,0,7
+rlwinm  r0,r0,16,0,15
+or      r0,r0,r8
+rlwinm  r11,r11,8,0,23
+or      r11,r11,r0
+or      r9,r9,r11
+r9,r9,r30
+rlwinm  r0,r9,8,24,31
+stb     r0,2713(r31)
+rlwinm  r0,r9,16,16,31
+lbz     r11,2714(r31)
+stb     r0,2714(r31)
+rlwinm  r0,r9,24,8,31
+lbz     r11,2715(r31)
+stb     r0,2715(r31)
+lbz     r0,2716(r31)
+stb     r9,2716(r31)
+lbz     r8,2705(r31)
+lbz     r0,2706(r31)
+lbz     r11,2707(r31)
+lbz     r9,2708(r31)
+lbz     r10,2705(r31)
+rlwinm  r8,r8,24,0,7
+rlwinm  r0,r0,16,0,15
+or      r0,r0,r8
+rlwinm  r11,r11,8,0,23
+or      r11,r11,r0
+or      r9,r9,r11
+r9,r9,r30
+rlwinm  r0,r9,8,24,31
+stb     r0,2705(r31)
+rlwinm  r0,r9,16,16,31
+lbz     r11,2706(r31)
+stb     r0,2706(r31)
+rlwinm  r0,r9,24,8,31
+lbz     r11,2707(r31)
+stb     r0,2707(r31)
+lbz     r0,2708(r31)
+stb     r9,2708(r31)
+lbz     r8,2721(r31)
+lbz     r0,2722(r31)
+lbz     r11,2723(r31)
+lbz     r9,2724(r31)
+lbz     r10,2721(r31)
+rlwinm  r8,r8,24,0,7
+rlwinm  r0,r0,16,0,15
+or      r0,r0,r8
+rlwinm  r11,r11,8,0,23
+or      r11,r11,r0
+or      r9,r9,r11
+r9,r9,r30
+<copyStreamToStream+0x1060>
+subf    r7,r0,r30
+subf    r24,r7,r24
+lbz     r8,2713(r31)
+lbz     r0,2714(r31)
+lbz     r11,2715(r31)
+lbz     r9,2716(r31)
+lbz     r10,2713(r31)
+rlwinm  r8,r8,24,0,7
+rlwinm  r0,r0,16,0,15
+or      r0,r0,r8
+rlwinm  r11,r11,8,0,23
+or      r11,r11,r0
+or      r9,r9,r11
+r9,r9,r7
+rlwinm  r0,r9,8,24,31
+stb     r0,2713(r31)
+rlwinm  r0,r9,16,16,31
+lbz     r11,2714(r31)
+stb     r0,2714(r31)
+rlwinm  r0,r9,24,8,31
+lbz     r11,2715(r31)
+stb     r0,2715(r31)
+lbz     r0,2716(r31)
+stb     r9,2716(r31)
+lbz     r8,2705(r31)
+lbz     r0,2706(r31)
+lbz     r11,2707(r31)
+lbz     r9,2708(r31)
+lbz     r10,2705(r31)
+rlwinm  r8,r8,24,0,7
+rlwinm  r0,r0,16,0,15
+or      r0,r0,r8
+rlwinm  r11,r11,8,0,23
+or      r11,r11,r0
+or      r9,r9,r11
+r9,r9,r7
+rlwinm  r0,r9,8,24,31
+stb     r0,2705(r31)
+rlwinm  r0,r9,16,16,31
+lbz     r11,2706(r31)
+stb     r0,2706(r31)
+rlwinm  r0,r9,24,8,31
+lbz     r11,2707(r31)
+stb     r0,2707(r31)
+lbz     r0,2708(r31)
+stb     r9,2708(r31)
+lbz     r8,2721(r31)
+lbz     r0,2722(r31)
+lbz     r11,2723(r31)
+lbz     r9,2724(r31)
+lbz     r10,2721(r31)
+rlwinm  r8,r8,24,0,7
+rlwinm  r0,r0,16,0,15
+or      r0,r0,r8
+rlwinm  r11,r11,8,0,23
+or      r11,r11,r0
+or      r9,r9,r11
+r9,r9,r7
+rlwinm  r0,r9,8,24,31
+stb     r0,2721(r31)
+rlwinm  r0,r9,16,16,31
+lbz     r11,2722(r31)
+stb     r0,2722(r31)
+rlwinm  r0,r9,24,8,31
+lbz     r11,2723(r31)
+stb     r0,2723(r31)
+lbz     r0,2724(r31)
+stb     r9,2724(r31)
+li      r18,1
+<copyStreamToStream+0x119c>
+subf    r24,r30,r24
+lbz     r8,2705(r31)
+lbz     r0,2706(r31)
+lbz     r11,2707(r31)
+lbz     r9,2708(r31)
+lbz     r10,2705(r31)
+rlwinm  r8,r8,24,0,7
+rlwinm  r0,r0,16,0,15
+or      r0,r0,r8
+rlwinm  r11,r11,8,0,23
+or      r11,r11,r0
+or      r9,r9,r11
+r9,r9,r30
+rlwinm  r0,r9,8,24,31
+stb     r0,2705(r31)
+rlwinm  r0,r9,16,16,31
+lbz     r11,2706(r31)
+stb     r0,2706(r31)
+rlwinm  r0,r9,24,8,31
+lbz     r11,2707(r31)
+stb     r0,2707(r31)
+lbz     r0,2708(r31)
+stb     r9,2708(r31)
+lbz     r8,2713(r31)
+lbz     r0,2714(r31)
+lbz     r11,2715(r31)
+lbz     r9,2716(r31)
+lbz     r10,2713(r31)
+rlwinm  r8,r8,24,0,7
+rlwinm  r0,r0,16,0,15
+or      r0,r0,r8
+rlwinm  r11,r11,8,0,23
+or      r11,r11,r0
+or      r9,r9,r11
+r9,r9,r30
+rlwinm  r0,r9,8,24,31
+stb     r0,2713(r31)
+rlwinm  r0,r9,16,16,31
+lbz     r11,2714(r31)
+stb     r0,2714(r31)
+rlwinm  r0,r9,24,8,31
+lbz     r11,2715(r31)
+stb     r0,2715(r31)
+lbz     r0,2716(r31)
+stb     r9,2716(r31)
+lbz     r8,2721(r31)
+lbz     r0,2722(r31)
+lbz     r11,2723(r31)
+lbz     r9,2724(r31)
+lbz     r10,2721(r31)
+rlwinm  r8,r8,24,0,7
+rlwinm  r0,r0,16,0,15
+or      r0,r0,r8
+rlwinm  r11,r11,8,0,23
+or      r11,r11,r0
+or      r9,r9,r11
+r9,r9,r30
+rlwinm  r0,r9,8,24,31
+stb     r0,2721(r31)
+rlwinm  r0,r9,16,16,31
+lbz     r11,2722(r31)
+stb     r0,2722(r31)
+rlwinm  r0,r9,24,8,31
+lbz     r11,2723(r31)
+stb     r0,2723(r31)
+lbz     r0,2724(r31)
+stb     r9,2724(r31)
+mr      r3,r31
+mr      r4,r23
+mr      r5,r20
+mr      r6,r16
+mr      r7,r17
+l      84e10 <copyWriteToStream>
+mr.     r22,r3
+ne-    8e1e4 <copyStreamToStream+0x122c>
+mpwi   cr1,r24,0
+q-    cr1,8e194 <copyStreamToStream+0x11dc>
+lbz     r0,2689(r31)
+ndi.   r9,r0,128
+lbz     r0,2690(r31)
+lbz     r0,2691(r31)
+lbz     r0,2692(r31)
+q+    8dc04 <copyStreamToStream+0xc4c>
+mpwi   cr1,r18,1
+gt-    cr1,8e1bc <copyStreamToStream+0x1204>
+mr      r3,r31
+mr      r4,r16
+mr      r5,r20
+mr      r6,r23
+mr      r7,r17
+mr      r8,r14
+l      8522c <copyEndCheckToStream>
+mr      r22,r3
+lis     r9,43
+lwz     r0,9164(r9)
+mpwi   cr1,r0,0
+q-    cr1,8e1e4 <copyStreamToStream+0x122c>
+mpwi   cr1,r18,0
+le-    cr1,8e1e4 <copyStreamToStream+0x122c>
+mr      r3,r31
+mr      r4,r18
+li      r22,2
+l      98dbc <recomputeResidual>
+mr      r3,r22
+lwz     r0,100(r1)
+mtlr    r0
+lmw     r14,24(r1)
+i    r1,r1,96
+lr
+

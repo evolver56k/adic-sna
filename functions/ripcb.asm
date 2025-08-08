@@ -1,0 +1,3 @@
+ripcb:
+.long 0x0
+

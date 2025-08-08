@@ -1,0 +1,8 @@
+evalType:
+.long 0x12f0a0
+.long 0x12f120
+.long 0x12f1e8
+.long 0x12f2b0
+.long 0x12f898
+.long 0x12f960
+

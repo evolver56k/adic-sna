@@ -1,0 +1,10 @@
+l_ledEtherTransmit:
+.long 0x10401
+.long 0x13e750
+.long 0xec3dc
+.long 0x13e760
+.long 0xec4d0
+	...
+.long 0xff
+.long 0xff
+

@@ -1,0 +1,10 @@
+l_scsiFWRev:
+.long 0x10401
+.long 0x13e750
+.long 0xeb8d8
+.long 0x13e760
+.long 0xebb98
+	...
+.long 0xff
+.long 0xff
+

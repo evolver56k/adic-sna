@@ -1,0 +1,10 @@
+l_ifStackStatus:
+.long 0x10207
+.long 0xf3548
+.long 0xf332c
+.long 0xf364c
+.long 0xf3434
+	...
+.long 0xff
+.long 0xff
+

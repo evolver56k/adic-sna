@@ -1,0 +1,10 @@
+l_tcpConnState:
+.long 0x10203
+.long 0xf5870
+.long 0xf59ec
+.long 0xf5954
+.long 0xf5b88
+	...
+.long 0xff
+.long 0xff
+

@@ -1,0 +1,3 @@
+__ti19__pointer_type_info:
+	...
+

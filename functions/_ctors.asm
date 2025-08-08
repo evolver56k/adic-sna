@@ -1,0 +1,6 @@
+_ctors:
+.long 0x1be1c8
+.long 0x125354
+.long 0x1bd698
+.long 0x0
+

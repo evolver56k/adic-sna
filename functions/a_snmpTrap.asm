@@ -1,0 +1,7 @@
+a_snmpTrap:
+.long 0x1
+.long 0x2bb438
+.long 0x3
+.long 0x2bb45c
+	...
+

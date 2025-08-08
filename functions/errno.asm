@@ -1,0 +1,3 @@
+errno:
+.long 0x0
+

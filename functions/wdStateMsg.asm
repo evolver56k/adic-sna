@@ -1,0 +1,5 @@
+wdStateMsg:
+.long 0x2041a8
+.long 0x2041a0
+.long 0x204198
+

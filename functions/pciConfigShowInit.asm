@@ -1,0 +1,3 @@
+pciConfigShowInit:
+lr
+

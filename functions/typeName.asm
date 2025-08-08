@@ -1,0 +1,205 @@
+typeName:
+.long 0x211164
+.long 0x211160
+.long 0x211158
+.long 0x211150
+.long 0x21114c
+
+002cb3cc <help_msg.4>:
+.long 0x211db4
+.long 0x211d7c
+.long 0x211d44
+.long 0x211d0c
+.long 0x211cd0
+.long 0x211c98
+.long 0x211c64
+.long 0x211c34
+.long 0x211c00
+.long 0x211bfc
+.long 0x211bc4
+.long 0x211b94
+.long 0x211b50
+.long 0x211b20
+.long 0x211af4
+.long 0x211bfc
+.long 0x211bfc
+.long 0x211aa8
+.long 0x211a64
+.long 0x211a10
+.long 0x2119cc
+.long 0x211984
+.long 0x211938
+.long 0x2118f8
+.long 0x2118b4
+.long 0x211880
+.long 0x211840
+.long 0x2117f4
+.long 0x2117b8
+.long 0x21177c
+.long 0x211730
+.long 0x2116e4
+.long 0x2116a4
+.long 0x21166c
+.long 0x211624
+.long 0x2115f4
+.long 0x2115c0
+.long 0x21157c
+.long 0x21154c
+.long 0x211520
+.long 0x2114e0
+.long 0x21147c
+.long 0x211430
+.long 0x2113e4
+.long 0x211378
+.long 0x21133c
+.long 0x211304
+.long 0x2112bc
+.long 0x21127c
+.long 0x211234
+.long 0x2111fc
+.long 0x2111c4
+.long 0x0
+
+002cb4a0 <help_msg.7>:
+.long 0x212238
+.long 0x212204
+.long 0x2121c8
+.long 0x21218c
+.long 0x212148
+.long 0x21210c
+.long 0x2120e8
+.long 0x2120bc
+.long 0x21208c
+.long 0x212060
+.long 0x21203c
+.long 0x21200c
+.long 0x211fd0
+.long 0x211f94
+.long 0x211f64
+.long 0x211f2c
+.long 0x211f00
+.long 0x211ed8
+.long 0x211ea4
+.long 0x211e6c
+.long 0x211e40
+.long 0x211e10
+.long 0x211de0
+.long 0x0
+
+002cb500 <help_msg.10>:
+.long 0x2122e4
+.long 0x2122a8
+.long 0x212270
+.long 0x0
+
+002cb510 <help_msg.13>:
+.long 0x212428
+.long 0x2123ec
+.long 0x2123a0
+.long 0x212364
+.long 0x21231c
+.long 0x0
+
+002cb528 <help_msg.16>:
+.long 0x212538
+.long 0x212504
+.long 0x2124d0
+.long 0x2124a0
+.long 0x212468
+.long 0x0
+
+002cb540 <help_msg.19>:
+.long 0x212660
+.long 0x21261c
+.long 0x2125ec
+.long 0x2125b0
+.long 0x212570
+.long 0x0
+
+002cb558 <help_msg.22>:
+.long 0x212794
+.long 0x212774
+.long 0x212750
+.long 0x212730
+.long 0x212710
+.long 0x2126ec
+.long 0x2126d4
+.long 0x2126b8
+.long 0x2126a8
+.long 0x0
+
+002cb580 <help_msg.25>:
+.long 0x212944
+.long 0x212924
+.long 0x2128e4
+.long 0x2128d4
+.long 0x21289c
+.long 0x212874
+.long 0x212858
+.long 0x212848
+.long 0x212820
+.long 0x212808
+.long 0x2127d0
+.long 0x2127a8
+.long 0x0
+
+002cb5b4 <help_msg.28>:
+.long 0x212af0
+.long 0x212ad0
+.long 0x212a90
+.long 0x212a80
+.long 0x212a48
+.long 0x212a20
+.long 0x212a04
+.long 0x2129f4
+.long 0x2129cc
+.long 0x2129b4
+.long 0x21297c
+.long 0x212954
+.long 0x0
+
+002cb5e8 <checkStackHdr.45>:
+subfic  r1,r0,20033
+.long 0x4d452020
+subfic  r1,r0,8224
+subfic  r1,r0,17742
+rlwinm  r18,r2,11,4,16
+subfic  r1,r0,8224
+subfic  r1,r0,8276
+<_end+0x13de547>
+subfic  r1,r0,8275
+<_end+0x1540a4f>
+subfic  r1,r0,17237
+rlwimi  r0,r17,4,1,4
+<_end+0x1410d5b>
+subfic  r2,r13,16722
+.long 0x47494e0a
+mpdi   cr2,r13,11565
+mpdi   cr2,r13,11565
+mpdi   cr2,r13,11565
+subfic  r1,r13,11565
+mpdi   cr2,r13,11565
+mpdi   cr2,r13,11565
+mpdi   cr2,r0,11565
+mpdi   cr2,r13,11565
+mpdi   cr2,r13,8237
+mpdi   cr2,r13,11565
+subfic  r1,r13,11565
+mpdi   cr2,r13,8237
+mpdi   cr2,r13,11565
+subfic  r1,r13,11565
+mpdi   cr2,r13,11530
+.long 0x0
+
+002cb664 <lastWidth.67>:
+.long 0x2
+
+002cb668 <dNitems.70>:
+.long 0x80
+
+002cb66c <dWidth.71>:
+.long 0x2
+
+002cb670 <last_adrs.72>:
+.long 0x0
+

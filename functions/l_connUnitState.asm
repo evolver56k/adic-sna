@@ -1,0 +1,10 @@
+l_connUnitState:
+.long 0x10201
+.long 0x13e750
+.long 0xf8130
+.long 0x13e760
+.long 0xf8234
+	...
+.long 0xff
+.long 0xff
+

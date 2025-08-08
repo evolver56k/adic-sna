@@ -1,0 +1,10 @@
+l_connUnitSEventTime:
+.long 0x14301
+.long 0x13e750
+.long 0xfa064
+.long 0x13e760
+.long 0xfa1f0
+	...
+.long 0xff
+.long 0xff
+

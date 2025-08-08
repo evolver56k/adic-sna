@@ -1,0 +1,6 @@
+E_pCurIoTbl_Used:
+.long 0x123
+.long 0x1bf
+.long 0x259
+.long 0x39f
+

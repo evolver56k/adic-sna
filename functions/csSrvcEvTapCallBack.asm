@@ -1,0 +1,17 @@
+csSrvcEvTapCallBack:
+.long 0x0
+
+002b2ec4 <asciiMonths.34>:
+.long 0x1f145c
+.long 0x1f1458
+.long 0x1f1454
+.long 0x1f1450
+.long 0x1f144c
+.long 0x1f1448
+.long 0x1f1444
+.long 0x1f1440
+.long 0x1f143c
+.long 0x1f1438
+.long 0x1f1434
+.long 0x1f1430
+

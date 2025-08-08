@@ -1,0 +1,9 @@
+stk_tapes:
+.long 0x1de7ec
+.long 0x1de7e0
+.long 0x82
+.long 0x54f80
+	...
+.long 0x82
+.long 0x54f80
+

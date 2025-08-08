@@ -1,0 +1,10 @@
+l_ifRcvAddressType:
+.long 0x10207
+.long 0xf39e8
+.long 0xf374c
+.long 0xf3ae8
+.long 0xf3880
+	...
+.long 0xff
+.long 0xff
+

@@ -1,0 +1,10 @@
+l_connUnitPortStatFabricCountTxOctets:
+.long 0x10401
+.long 0x13e750
+.long 0xfbb28
+.long 0x13e760
+.long 0xfbc48
+	...
+.long 0xff
+.long 0xff
+

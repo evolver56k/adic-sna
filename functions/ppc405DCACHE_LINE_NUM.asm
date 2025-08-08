@@ -1,0 +1,3 @@
+ppc405DCACHE_LINE_NUM:
+.long 0x80
+

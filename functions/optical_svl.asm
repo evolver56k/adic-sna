@@ -1,0 +1,6 @@
+optical_svl:
+.long 0x1df3f4
+.long 0x279338
+.long 0x0
+.long 0x279358
+

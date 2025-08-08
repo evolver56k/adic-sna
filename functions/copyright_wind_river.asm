@@ -1,0 +1,43 @@
+copyright_wind_river:
+.long 0x436f7079
+ndi.   r9,r19,26472
+ndis.  r0,r1,12601
+i    r1,r20,11569
+i    r9,r25,13856
+rlwinm  r9,r27,13,25,18
+subfic  r2,r18,26998
+oris    r18,r11,8275
+rldicr. r19,r11,14,49
+xoris   r19,r11,11296
+<_end+0x13b724f>
+tdi     18,r20,26729
+ndi.   r0,r25,28786
+xoris   r7,r27,29281
+xoris   r0,r9,25455
+xoris   r20,r19,24937
+xoris   r19,r19,8291
+xoris   r14,r27,26217
+oris    r5,r3,28276
+xori    r1,r11,27680
+xori    r14,r11,26223
+ndi.   r13,r19,24948
+xori    r15,r11,28192
+xoris   r6,r27,8279
+xori    r14,r11,25632
+rlwimi. r9,r19,14,25,18
+ndi.   r0,r17,21369
+ndi.   r20,r27,25965
+ndi.   r12,r25,8265
+xoris   r3,r19,11786
+ori     r14,r11,25632
+oris    r9,r3,29539
+xoris   r15,r3,29557
+ndi.   r5,r19,8289
+xoris   r4,r19,8291
+xoris   r16,r27,31081
+xoris   r7,r19,8289
+ndi.   r5,r19,8304
+ndi.   r15,r19,26729
+ori     r9,r19,29797
+oris    r14,r1,0
+

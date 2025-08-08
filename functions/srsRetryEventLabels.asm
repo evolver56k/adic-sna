@@ -1,0 +1,8 @@
+srsRetryEventLabels:
+.long 0x1ec9cc
+.long 0x1ec9c4
+.long 0x1ec9bc
+.long 0x1ec9b4
+.long 0x1ec9ac
+.long 0x1ec9a4
+

@@ -1,0 +1,7 @@
+setCmntyDefaults:
+.long 0x1f6bec
+.long 0x1
+.long 0x1f6be4
+.long 0x1
+	...
+

@@ -1,0 +1,6 @@
+symTblClass:
+	...
+
+003120a4 <buffer.4>:
+	...
+

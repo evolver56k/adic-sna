@@ -1,0 +1,5 @@
+udpCfgParams:
+.long 0x3
+.long 0x2400
+.long 0xa280
+

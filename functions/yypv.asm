@@ -1,0 +1,3 @@
+yypv:
+.long 0x0
+

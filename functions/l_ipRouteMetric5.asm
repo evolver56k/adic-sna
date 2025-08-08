@@ -1,0 +1,10 @@
+l_ipRouteMetric5:
+.long 0x10203
+.long 0xf4374
+.long 0xf4048
+.long 0xf456c
+.long 0xf4258
+	...
+.long 0xff
+.long 0xff
+

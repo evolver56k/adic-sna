@@ -1,0 +1,7 @@
+endDevTbl:
+.long 0x0
+.long 0x1673c
+.long 0x328728
+.long 0x1
+	...
+

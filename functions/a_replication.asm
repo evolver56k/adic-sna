@@ -1,0 +1,7 @@
+a_replication:
+.long 0x1
+.long 0x2baf08
+.long 0x2
+.long 0x2bb0bc
+	...
+

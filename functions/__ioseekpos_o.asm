@@ -1,0 +1,3 @@
+__ioseekpos_o:
+	...
+

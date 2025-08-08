@@ -1,0 +1,5 @@
+dev1Paras:
+.long 0x0
+.long 0xef600400
+.long 0x10001
+

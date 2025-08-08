@@ -1,0 +1,9 @@
+cout:
+.long 0x2cb9b8
+.long 0x2cbab0
+	...
+.long 0x11
+.long 0x200000
+.long 0x6
+	...
+

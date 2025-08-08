@@ -1,0 +1,6 @@
+ipCfgParams:
+.long 0x1b
+.long 0x40
+.long 0x32
+.long 0x3c
+

@@ -1,0 +1,18 @@
+iopBrWrChar:
+stwu    r1,-8(r1)
+mflr    r0
+stw     r0,12(r1)
+mr      r6,r3
+lis     r9,47
+lwz     r3,-4480(r9)
+lrlwi  r7,r4,24
+lis     r9,47
+lis     r11,47
+lwz     r4,-4700(r9)
+lwz     r5,-4920(r11)
+l      11e14 <pciConfigOutByte>
+lwz     r0,12(r1)
+mtlr    r0
+i    r1,r1,8
+lr
+

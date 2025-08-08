@@ -1,0 +1,6 @@
+netTypeList:
+	...
+
+00312f40 <etherbuf.28>:
+	...
+

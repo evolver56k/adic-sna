@@ -1,0 +1,9 @@
+cplusEhObjs:
+.long 0x2cb268
+.long 0x2cac7c
+.long 0x2cb91c
+.long 0x2cb898
+.long 0x2cb278
+.long 0x2ccec4
+.long 0x2cb0b8
+

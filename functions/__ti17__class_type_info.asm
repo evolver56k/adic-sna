@@ -1,0 +1,3 @@
+__ti17__class_type_info:
+	...
+

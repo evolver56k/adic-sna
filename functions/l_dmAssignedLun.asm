@@ -1,0 +1,10 @@
+l_dmAssignedLun:
+.long 0x10201
+.long 0x13e750
+.long 0xef084
+.long 0x13e760
+.long 0xef13c
+	...
+.long 0xff
+.long 0xff
+

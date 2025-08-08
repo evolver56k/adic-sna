@@ -1,0 +1,8 @@
+convType:
+.long 0x12fd68
+.long 0x12fd9c
+.long 0x12fde4
+.long 0x12fe44
+.long 0x12feb4
+.long 0x12ff20
+

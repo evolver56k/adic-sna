@@ -1,0 +1,5 @@
+a_mgmt:
+.long 0x1
+.long 0x2b6d94
+	...
+

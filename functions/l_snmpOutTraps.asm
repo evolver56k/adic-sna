@@ -1,0 +1,10 @@
+l_snmpOutTraps:
+.long 0x14101
+.long 0x13e750
+.long 0xe53f0
+.long 0x13e760
+.long 0x149584
+	...
+.long 0xff
+.long 0xff
+

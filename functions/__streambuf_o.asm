@@ -1,0 +1,3 @@
+__streambuf_o:
+	...
+

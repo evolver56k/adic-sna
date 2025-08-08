@@ -1,0 +1,4 @@
+n_ccitt:
+.long 0x60000
+.long 0x2b3bb4
+

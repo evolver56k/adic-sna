@@ -1,0 +1,57 @@
+windLoadContext:
+lis     r3,47
+lwz     r3,-4104(r3)
+lwz     r4,132(r3)
+lis     r5,47
+stw     r4,-4800(r5)
+lwz     r0,316(r3)
+lwz     r5,336(r3)
+lwz     r6,340(r3)
+lwz     r4,448(r3)
+lwz     r7,344(r3)
+mtlr    r4
+lwz     r8,348(r3)
+lwz     r4,452(r3)
+lwz     r9,352(r3)
+mtctr   r4
+lwz     r10,356(r3)
+lwz     r4,464(r3)
+lwz     r11,360(r3)
+mtxer   r4
+lwz     r12,364(r3)
+lwz     r13,368(r3)
+lwz     r14,372(r3)
+lwz     r15,376(r3)
+lwz     r16,380(r3)
+lwz     r17,384(r3)
+lwz     r18,388(r3)
+lwz     r19,392(r3)
+lwz     r20,396(r3)
+lwz     r21,400(r3)
+lwz     r22,404(r3)
+lwz     r23,408(r3)
+lwz     r24,412(r3)
+lwz     r25,416(r3)
+lwz     r26,420(r3)
+lwz     r27,424(r3)
+lwz     r28,428(r3)
+lwz     r29,432(r3)
+lwz     r30,436(r3)
+lwz     r31,440(r3)
+lwz     r2,324(r3)
+lwz     r1,320(r3)
+lwz     r4,460(r3)
+mtcr    r4
+mfmsr   r4
+rlwinm  r4,r4,0,17,15
+rlwinm  r4,r4,0,15,13
+mtmsr   r4
+isync
+lwz     r4,456(r3)
+mtsrr0  r4
+lwz     r4,444(r3)
+mtsrr1  r4
+lwz     r4,332(r3)
+lwz     r3,328(r3)
+rfi
+

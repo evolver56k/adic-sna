@@ -1,0 +1,10 @@
+l_ifConnectorPresent:
+.long 0x10201
+.long 0x13e750
+.long 0xf2f0c
+.long 0x13e760
+.long 0xf2fe0
+	...
+.long 0xff
+.long 0xff
+

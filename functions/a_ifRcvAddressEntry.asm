@@ -1,0 +1,9 @@
+a_ifRcvAddressEntry:
+.long 0x1
+.long 0x2b6a54
+.long 0x2
+.long 0x2b6a5c
+.long 0x3
+.long 0x2b6a80
+	...
+

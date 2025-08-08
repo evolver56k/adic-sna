@@ -1,0 +1,40 @@
+ssatargInitInit:
+stw     r5,8(r3)
+stw     r6,12(r3)
+stw     r7,0(r3)
+stw     r4,16(r3)
+li      r0,-1
+stw     r0,24(r3)
+stw     r0,28(r3)
+li      r0,0
+stw     r0,4(r3)
+i    r11,r3,32
+lis     r9,6
+i    r9,r9,44
+stw     r9,4(r11)
+stw     r0,8(r11)
+lis     r9,6
+i    r9,r9,-2816
+stw     r9,16(r11)
+lis     r9,6
+i    r9,r9,-2680
+stw     r9,20(r11)
+lis     r10,10
+i    r10,r10,-11636
+stw     r10,24(r11)
+lis     r9,6
+i    r9,r9,-2564
+stw     r9,28(r11)
+lis     r9,6
+i    r9,r9,-2540
+stw     r9,32(r11)
+lis     r9,6
+i    r9,r9,-2380
+stw     r9,40(r11)
+lis     r9,6
+i    r9,r9,1172
+stw     r9,44(r11)
+stw     r3,32(r3)
+stw     r10,52(r11)
+lr
+

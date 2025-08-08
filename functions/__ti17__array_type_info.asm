@@ -1,0 +1,3 @@
+__ti17__array_type_info:
+	...
+
